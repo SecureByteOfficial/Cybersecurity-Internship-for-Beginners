@@ -20,7 +20,7 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
     <a href="https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/Internship%20Guidebook%20.pdf ">
         <img src="https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download" alt="Download Syllabus">
     </a>
-    <a href="www.youtube.com/@securebyteofficial">
+    <a href="https://www.youtube.com/@securebyteofficial">
         <img src="https://img.shields.io/badge/YouTube-007bff?style=for-the-badge&logo=youtube" alt="YouTube">
     </a>
 <a href="https://x.com/SecureByteORG" target="_blank">
