@@ -87,7 +87,7 @@ No prior cybersecurity or programming knowledge is needed—this internship is d
 - **Day 13-14**: Tool Demonstrations: Learning key cybersecurity tools, including installation and configuration.  
 
 ### Week 5: Personalized Career Guidance
-- **Day 15-17**: Live Classes with [Naem Azam Chowdhury](#instructor-profile): Insights into entry-level roles, certifications, and career progression in cybersecurity.
+- **Day 15-17**: Live Classes with [Naem Azam Chowdhury](-#instructor-profile): Insights into entry-level roles, certifications, and career progression in cybersecurity.
 - **Day 18-19**: Resume Building and Interview Preparation: Workshop on creating effective resumes and preparing for cybersecurity job interviews.
 
 
