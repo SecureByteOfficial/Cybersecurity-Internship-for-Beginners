@@ -12,16 +12,22 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
 ## 🏷️ Batch Information
 [![Batch #1](https://img.shields.io/badge/Batch%20%231-Active-brightgreen)](https://your-link-here) <!-- Replace with your link if needed -->
 
-
-
+## 🔗 Important Links
 <div style="display: flex; gap: 15px;">
-
-[![Registration](https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register)](registration-link)
-[![Download Syllabus](https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download)](download-syllabus-link)
-[![YouTube](https://img.shields.io/badge/YouTube-007bff?style=for-the-badge&logo=youtube)](youtube-link)
-[![Facebook](https://img.shields.io/badge/Facebook-007bff?style=for-the-badge&logo=facebook)](facebook-link)
-
+    <a href="registration-link">
+        <img src="https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register" alt="Registration">
+    </a>
+    <a href="download-syllabus-link">
+        <img src="https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download" alt="Download Syllabus">
+    </a>
+    <a href="youtube-link">
+        <img src="https://img.shields.io/badge/YouTube-007bff?style=for-the-badge&logo=youtube" alt="YouTube">
+    </a>
+    <a href="facebook-link">
+        <img src="https://img.shields.io/badge/Facebook-007bff?style=for-the-badge&logo=facebook" alt="Facebook">
+    </a>
 </div>
+
 
 
 
@@ -105,4 +111,26 @@ Interns who pass the final assessment will receive an official certificate from 
 
 ---
 
-Feel free to adjust any sections to better fit your needs! Good luck with your internship program! 🎉
+## 👨‍🏫 Instructor Profile
+
+### Naem Azam Chowdhury
+![Naem Azam Chowdhury](https://your-image-link.com) <!-- Replace with actual image link -->
+
+**Position:** CEO & Founder of SecureByte  
+**Expertise:** Cybersecurity, Ethical Hacking, AI, Web Development
+
+**About Naem:**
+Naem Azam Chowdhury is a renowned cybersecurity expert and the CEO of SecureByte, where he leads innovative research and development in cybersecurity and AI. With a strong academic background, including a gold medal in Computer Science and a Master’s degree in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
+
+**Achievements:**
+- **Gold Medalist** at the Global AI Competition
+- **Recognized** as one of the top cybersecurity advisors in Bangladesh
+- Founder of multiple educational initiatives aimed at increasing cybersecurity awareness and skills
+
+**Teaching Philosophy:**
+Naem believes in hands-on learning and fostering a collaborative environment. He is committed to providing students with the tools and knowledge they need to excel in the field of cybersecurity.
+
+**Connect with Naem:**
+- [Facebook](https://www.facebook.com/naemazamchowdhury) 
+- [YouTube Channel](https://www.youtube.com/@NaemAzamChowdhury) 
+
