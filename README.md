@@ -1,4 +1,4 @@
-# 🚀 SecureByte Cybersecurity Internship for Beginners
+# 🛡️ SecureByte Cybersecurity Internship for Beginners
 
 ![Internship Banner](https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/Cybersecurity%20Internship.jpg?raw=true)
 
