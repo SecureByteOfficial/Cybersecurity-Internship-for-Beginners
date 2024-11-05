@@ -3,6 +3,27 @@
 ## 📖 Introduction
 Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This online internship program is specifically designed to guide you, step by step, from the basics of cybersecurity to hands-on experience with tools and techniques used by professionals. Over the next two months, you will develop a solid understanding of the cybersecurity landscape, gain practical skills, and take your first steps into the field of ethical hacking and network defense.
 
+
+## ⏰ Time and Date Information
+- **Start Date:** December 1, 2024
+- **End Date:** January 30, 2025
+
+## 🏷️ Batch Information
+[![Batch #1](https://img.shields.io/badge/Batch%20%231-Active-brightgreen)](https://your-link-here) <!-- Replace with your link if needed -->
+
+
+<div style="display: flex; gap: 15px;">
+
+[![Registration](https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register)](registration-link)
+[![Download Syllabus](https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download)](download-syllabus-link)
+[![YouTube](https://img.shields.io/badge/YouTube-007bff?style=for-the-badge&logo=youtube)](youtube-link)
+[![Facebook](https://img.shields.io/badge/Facebook-007bff?style=for-the-badge&logo=facebook)](facebook-link)
+
+</div>
+
+
+
+
 ## 🗂️ Table of Contents
 1. [What We Offer in the SecureByte Cybersecurity Internship](#-what-we-offer-in-the-securebyte-cybersecurity-internship)
 2. [Who This Internship is For](#-who-this-internship-is-for)
