@@ -87,8 +87,9 @@ No prior cybersecurity or programming knowledge is needed—this internship is d
 - **Day 13-14**: Tool Demonstrations: Learning key cybersecurity tools, including installation and configuration.  
 
 ### Week 5: Personalized Career Guidance
-- **Day 15-17**: Live Classes with Naem Azam Chowdhury: Insights into entry-level roles, certifications, and career progression in cybersecurity.  
-- **Day 18-19**: Resume Building and Interview Preparation: Workshop on creating effective resumes and preparing for cybersecurity job interviews.  
+- **Day 15-17**: Live Classes with [Naem Azam Chowdhury](#instructor-profile): Insights into entry-level roles, certifications, and career progression in cybersecurity.
+- **Day 18-19**: Resume Building and Interview Preparation: Workshop on creating effective resumes and preparing for cybersecurity job interviews.
+
 
 ### Week 6: Certification Preparation
 - **Day 20-21**: Review Sessions: Recap of key concepts, tools, and skills learned throughout the internship.  
@@ -101,6 +102,7 @@ No prior cybersecurity or programming knowledge is needed—this internship is d
 - **Day 29-30**: Ambassador Program Orientation: Overview of the Ambassador Program and exclusive training opportunities for selected interns.  
 
 ## 🏅 Certification and Advanced Opportunities for Successful Interns
+
 Interns who pass the final assessment will receive an official certificate from SecureByte, recognizing their achievement and foundational skills in cybersecurity.
 
 ### Exclusive Benefits for Certified Interns:
@@ -114,7 +116,7 @@ Interns who pass the final assessment will receive an official certificate from 
 ## 👨‍🏫 Instructor Profile
 
 ### Naem Azam Chowdhury
-![Naem Azam Chowdhury](https://your-image-link.com) <!-- Replace with actual image link -->
+![Naem Azam Chowdhury](https://your-image-link.com) 
 
 **Position:** CEO & Founder of SecureByte  
 **Expertise:** Cybersecurity, Ethical Hacking, AI, Web Development
