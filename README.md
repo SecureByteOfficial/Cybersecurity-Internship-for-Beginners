@@ -17,15 +17,16 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
     <a href="registration-link">
         <img src="https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register" alt="Registration">
     </a>
-    <a href="download-syllabus-link">
+    <a href="https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/Internship%20Guidebook%20.pdf ">
         <img src="https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download" alt="Download Syllabus">
     </a>
-    <a href="youtube-link">
+    <a href="www.youtube.com/@securebyteofficial">
         <img src="https://img.shields.io/badge/YouTube-007bff?style=for-the-badge&logo=youtube" alt="YouTube">
     </a>
-    <a href="facebook-link">
-        <img src="https://img.shields.io/badge/Facebook-007bff?style=for-the-badge&logo=facebook" alt="Facebook">
-    </a>
+<a href="https://x.com/SecureByteORG" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-007bff?style=for-the-badge&logo=twitter" alt="Twitter">
+</a>
+
 </div>
 
 
