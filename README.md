@@ -123,11 +123,11 @@ Interns who pass the final assessment will receive an official certificate from 
 **Expertise:** Cybersecurity, Ethical Hacking, AI, Web Development
 
 **About Naem:**
-Naem Azam Chowdhury is a renowned cybersecurity expert who leads innovative research and development in cybersecurity and AI. With a strong academic background, including a gold medal in Computer Science and a Master’s degree in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
+Naem Azam Chowdhury is a renowned cybersecurity expert leading innovative cybersecurity and AI research and development. With a strong academic background, including a gold medal in Computer Science and a Master’s degree in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
 
 **Achievements:**
-- **Gold Medalist** at the Global AI Competition
-- **Recognized** as one of the top cybersecurity advisors in Bangladesh
+- **Gold Medal** in Computer Science
+- **Gold Medalist** at the Global AI Competition China 
 - Founder of multiple educational initiatives aimed at increasing cybersecurity awareness and skills
 
 **Teaching Philosophy:**
