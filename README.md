@@ -1,5 +1,8 @@
 # 🛡️ SecureByte Cybersecurity Internship for Beginners
 
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+
 ![Internship Banner](https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/Cybersecurity%20Internship.jpg?raw=true)
 
 ## 📖 Introduction
