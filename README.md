@@ -78,36 +78,6 @@ To participate in this internship, you only need:
 
 No prior cybersecurity or programming knowledge is needed—this internship is designed for absolute beginners!
 
-## 📅 Internship Structure
-
-### Week 1-2: Foundational Knowledge
-- **Day 1-3**: Introduction to Cybersecurity Principles: Overview of cybersecurity concepts, threats, and defense mechanisms.  
-- **Day 4-5**: Network Security Basics: Understanding networking fundamentals, protocols, and security measures.  
-- **Day 6-7**: Operating System Fundamentals: Introduction to OS concepts relevant to cybersecurity, focusing on Windows and Linux environments.  
-
-### Week 3-4: Hands-On Labs and Practical Exercises
-- **Day 8-10**: Guided Virtual Labs: Practical sessions using Kali Linux, Nmap, Metasploit, and Wireshark in a controlled environment.  
-- **Day 11-12**: Real-World Scenarios: Engaging in incident response simulations and network vulnerability assessments.  
-- **Day 13-14**: Tool Demonstrations: Learning key cybersecurity tools, including installation and configuration.  
-
-### Week 5: Personalized Career Guidance
-- **Day 15-17**: Live Classes with [Naem Azam Chowdhury](-#instructor-profile): Insights into entry-level roles, certifications, and career progression in cybersecurity.
-- **Day 18-19**: Resume Building and Interview Preparation: Workshop on creating effective resumes and preparing for cybersecurity job interviews.
-
-
-### Week 6: Certification Preparation
-- **Day 20-21**: Review Sessions: Recap of key concepts, tools, and skills learned throughout the internship.  
-- **Day 22-23**: Mock Assessments: Practice tests and exercises to prepare for the final assessment.  
-- **Day 24**: Final Assessment: Comprehensive test covering all materials and practical skills acquired.  
-
-### Week 7-8: Certification and Advanced Opportunities
-- **Day 25**: Certification Ceremony: Presentation of SecureByte certificates to successful interns.  
-- **Day 26-28**: Introduction to Mentorship and Support: Connecting with SecureByte experts and joining the community of cybersecurity peers.  
-- **Day 29-30**: Ambassador Program Orientation: Overview of the Ambassador Program and exclusive training opportunities for selected interns.  
-
-## 🏅 Certification and Advanced Opportunities for Successful Interns
-
-Interns who pass the final assessment will receive an official certificate from SecureByte, recognizing their achievement and foundational skills in cybersecurity.
 
 ### Exclusive Benefits for Certified Interns:
 - **Mentorship and Support**: Certified interns will gain continued access to expert mentorship and guidance from SecureByte’s seasoned cybersecurity professionals. This includes joining an active community of mentors and like-minded peers who share your passion for cybersecurity.  
