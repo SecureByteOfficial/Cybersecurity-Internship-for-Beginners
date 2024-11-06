@@ -12,6 +12,7 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
 - **End Date:** January 30, 2025
 
 ## 🏷️ Batch Information
+Sit: 100 Only 
 [![Batch #1](https://img.shields.io/badge/Batch%20%231-Active-brightgreen)](https://your-link-here) <!-- Replace with your link if needed -->
 
 ## 🔗 Important Links
