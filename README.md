@@ -20,6 +20,9 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
     <a href="https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/Internship%20Guidebook%20.pdf ">
         <img src="https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download" alt="Download Syllabus">
     </a>
+    <a href="https://www.facebook.com/groups/securebytecommunity" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+</a>
     <a href="https://www.youtube.com/@securebyteofficial">
         <img src="https://img.shields.io/badge/YouTube-007bff?style=for-the-badge&logo=youtube" alt="YouTube">
     </a>
@@ -28,9 +31,6 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
 </a>
 
 </div>
-
-
-
 
 
 ## 🗂️ Table of Contents
@@ -119,11 +119,11 @@ Interns who pass the final assessment will receive an official certificate from 
 ### Naem Azam Chowdhury
 ![Naem Azam Chowdhury](https://your-image-link.com) 
 
-**Position:** CEO & Founder of SecureByte  
+**Position:** Security Researcher, China  
 **Expertise:** Cybersecurity, Ethical Hacking, AI, Web Development
 
 **About Naem:**
-Naem Azam Chowdhury is a renowned cybersecurity expert and the CEO of SecureByte, where he leads innovative research and development in cybersecurity and AI. With a strong academic background, including a gold medal in Computer Science and a Master’s degree in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
+Naem Azam Chowdhury is a renowned cybersecurity expert who leads innovative research and development in cybersecurity and AI. With a strong academic background, including a gold medal in Computer Science and a Master’s degree in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
 
 **Achievements:**
 - **Gold Medalist** at the Global AI Competition
@@ -134,6 +134,5 @@ Naem Azam Chowdhury is a renowned cybersecurity expert and the CEO of SecureByte
 Naem believes in hands-on learning and fostering a collaborative environment. He is committed to providing students with the tools and knowledge they need to excel in the field of cybersecurity.
 
 **Connect with Naem:**
-- [Facebook](https://www.facebook.com/naemazamchowdhury) 
 - [YouTube Channel](https://www.youtube.com/@NaemAzamChowdhury) 
 
