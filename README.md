@@ -40,7 +40,7 @@ Sit: 100 Only
 1. [What We Offer in the SecureByte Cybersecurity Internship](#-what-we-offer-in-the-securebyte-cybersecurity-internship)
 2. [Who This Internship is For](#-who-this-internship-is-for)
 3. [Prerequisites](#-prerequisites)
-4. [Certification and Advanced Opportunities for Successful Interns](-#exclusive-benefits-for-certified-interns)
+4. [Certification and Advanced Opportunities for Successful Interns](#-exclusive-benefits-for-certified-interns)
 
 ## 💼 What We Offer in the SecureByte Cybersecurity Internship
 
@@ -54,7 +54,7 @@ Sit: 100 Only
    - **Step-by-Step Practice**: Get guidance on installing, navigating, and using these tools to understand their purpose in cybersecurity.
 
 3. **Personalized Career Guidance** 💼  
-   Live Classes Led by [Naem Azam Chowdhury](-#instructor-profile). Gain insights into entry-level cybersecurity roles, industry-recognized certifications, and strategic guidance on advancing your cybersecurity career beyond the internship.
+   Live Classes Led by [Naem Azam Chowdhury](#-instructor-profile). Gain insights into entry-level cybersecurity roles, industry-recognized certifications, and strategic guidance on advancing your cybersecurity career beyond the internship.
 
 4. **Certification and Advanced Opportunities for Successful Interns** 🎓  
    Successful interns **who pass the final assessment** will earn a SecureByte certification. Certified interns gain exclusive access to mentorship from SecureByte experts, entry into the Ambassador Program, and advanced training opportunities. Outstanding participants may also qualify to guide future intern cohorts as mentors. This support network provides ongoing learning, professional development, and new opportunities within SecureByte’s cybersecurity community.
