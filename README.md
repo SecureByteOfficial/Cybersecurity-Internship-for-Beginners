@@ -7,15 +7,36 @@
 ## 📖 Introduction
 Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This online internship program is specifically designed to guide you, step by step, from the basics of cybersecurity to hands-on experience with tools and techniques used by professionals. **The internship will run from December 1, 2024, to January 30, 2025**. Over these two months, you will develop a solid understanding of the cybersecurity landscape, gain practical skills, and take your first steps into the field of ethical hacking and network defense.
 
-# SecureByte Cybersecurity Internship Countdown Timer
+## ⏰ Time and Date Information
+- **Start Date:** December 1, 2024
+- **End Date:** January 30, 2025
 
-The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **December 1, 2024** is below. 
+# SecureByte Cybersecurity Internship Registration Countdown
 
-<div id="countdown" style="font-size: 2em; color: #e63946;"></div>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+  <!-- Glowing Red Button for Register Now -->
+  <div style="text-align: center;">
+    <div id="countdown" 
+         style="background-color: #e63946; color: #fff; padding: 20px 40px; font-size: 1.5em; font-weight: bold; 
+                border-radius: 8px; box-shadow: 0 0 20px #e63946, 0 0 40px #e63946, 0 0 60px #e63946;
+                display: inline-block;">
+      Days Left for Registration: <span id="daysLeft">...</span>
+    </div>
+    <br><br>
+    <a href="https://yourregistrationlink.com" style="text-decoration: none;">
+      <button style="margin-top: 20px; padding: 15px 30px; font-size: 1.2em; color: #fff; background-color: #e63946; 
+                     border: none; border-radius: 8px; cursor: pointer; font-weight: bold;
+                     box-shadow: 0 0 20px #e63946, 0 0 40px #e63946, 0 0 60px #e63946;">
+        Register Now
+      </button>
+    </a>
+  </div>
+</div>
 
 <script>
   // Set the date we're counting down to
-  const countDownDate = new Date("December 1, 2024 00:00:00").getTime();
+  const registrationEndDate = new Date("December 1, 2024 00:00:00").getTime();
 
   // Update the countdown every 1 second
   const x = setInterval(function() {
@@ -23,30 +44,22 @@ The countdown to the start of the **SecureByte Cybersecurity Internship for Begi
     const now = new Date().getTime();
 
     // Calculate the time difference
-    const distance = countDownDate - now;
+    const distance = registrationEndDate - now;
 
-    // Time calculations for days, hours, minutes, and seconds
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // Time calculations for days only
+    const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
 
-    // Display the countdown in the #countdown div
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    // Display the days left in the #daysLeft span
+    document.getElementById("daysLeft").innerHTML = daysLeft + " days";
 
     // If the countdown is finished, display a message
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("countdown").innerHTML = "The SecureByte Cybersecurity Internship has started!";
+      document.getElementById("countdown").innerHTML = "Registration Closed!";
     }
   }, 1000);
 </script>
 
-
-## ⏰ Time and Date Information
-- **Start Date:** December 1, 2024
-- **End Date:** January 30, 2025
 
 ## 🏷️ Batch Information
 Sit: 500 Only 
