@@ -11,32 +11,20 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
 - **Start Date:** December 1, 2024
 - **End Date:** January 30, 2025
 
-# SecureByte Cybersecurity Internship Registration Countdown
+### SecureByte Cybersecurity Internship Countdown Timer
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **December 1, 2024** is below. 
 
-  <!-- Glowing Red Button for Register Now -->
-  <div style="text-align: center;">
-    <div id="countdown" 
-         style="background-color: #e63946; color: #fff; padding: 20px 40px; font-size: 1.5em; font-weight: bold; 
-                border-radius: 8px; box-shadow: 0 0 20px #e63946, 0 0 40px #e63946, 0 0 60px #e63946;
-                display: inline-block;">
-      Days Left for Registration: <span id="daysLeft">...</span>
-    </div>
-    <br><br>
-    <a href="https://yourregistrationlink.com" style="text-decoration: none;">
-      <button style="margin-top: 20px; padding: 15px 30px; font-size: 1.2em; color: #fff; background-color: #e63946; 
-                     border: none; border-radius: 8px; cursor: pointer; font-weight: bold;
-                     box-shadow: 0 0 20px #e63946, 0 0 40px #e63946, 0 0 60px #e63946;">
-        Register Now
-      </button>
+<div id="countdown" style="font-size: 2em; color: #e63946;"></div> 
+
+<p> Days Left For Register </p>
+<a href="https://forms.gle/jzeNZ7dtLZ65A4Vw6">
+        <img src="https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register" alt="Registration">
     </a>
-  </div>
-</div>
 
 <script>
   // Set the date we're counting down to
-  const registrationEndDate = new Date("December 1, 2024 00:00:00").getTime();
+  const countDownDate = new Date("December 1, 2024 00:00:00").getTime();
 
   // Update the countdown every 1 second
   const x = setInterval(function() {
@@ -44,21 +32,26 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
     const now = new Date().getTime();
 
     // Calculate the time difference
-    const distance = registrationEndDate - now;
+    const distance = countDownDate - now;
 
-    // Time calculations for days only
-    const daysLeft = Math.floor(distance / (1000 * 60 * 60 * 24));
+    // Time calculations for days, hours, minutes, and seconds
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Display the days left in the #daysLeft span
-    document.getElementById("daysLeft").innerHTML = daysLeft + " days";
+    // Display the countdown in the #countdown div
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
 
     // If the countdown is finished, display a message
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("countdown").innerHTML = "Registration Closed!";
+      document.getElementById("countdown").innerHTML = "The SecureByte Cybersecurity Internship has started!";
     }
   }, 1000);
 </script>
+
 
 
 ## 🏷️ Batch Information
