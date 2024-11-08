@@ -7,17 +7,54 @@
 ## 📖 Introduction
 Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This online internship program is specifically designed to guide you, step by step, from the basics of cybersecurity to hands-on experience with tools and techniques used by professionals. **The internship will run from December 1, 2024, to January 30, 2025**. Over these two months, you will develop a solid understanding of the cybersecurity landscape, gain practical skills, and take your first steps into the field of ethical hacking and network defense.
 
+# SecureByte Cybersecurity Internship Countdown Timer
+
+The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **December 1, 2024** is below. 
+
+<div id="countdown" style="font-size: 2em; color: #e63946;"></div>
+
+<script>
+  // Set the date we're counting down to
+  const countDownDate = new Date("December 1, 2024 00:00:00").getTime();
+
+  // Update the countdown every 1 second
+  const x = setInterval(function() {
+    // Get current date and time
+    const now = new Date().getTime();
+
+    // Calculate the time difference
+    const distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes, and seconds
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the countdown in the #countdown div
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the countdown is finished, display a message
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "The SecureByte Cybersecurity Internship has started!";
+    }
+  }, 1000);
+</script>
+
+
 ## ⏰ Time and Date Information
 - **Start Date:** December 1, 2024
 - **End Date:** January 30, 2025
 
 ## 🏷️ Batch Information
-Sit: 100 Only 
+Sit: 500 Only 
 [![Batch #1](https://img.shields.io/badge/Batch%20%231-Active-brightgreen)](https://your-link-here) <!-- Replace with your link if needed -->
 
 ## 🔗 Important Links
 <div style="display: flex; gap: 15px;">
-    <a href="registration-link">
+    <a href="https://forms.gle/jzeNZ7dtLZ65A4Vw6">
         <img src="https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register" alt="Registration">
     </a>
     <a href="https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/SecureByte_Beginners_Cybersecurity_Internship_Overview.pdf">
