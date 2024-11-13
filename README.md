@@ -8,12 +8,12 @@
 Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This online internship program is specifically designed to guide you, step by step, from the basics of cybersecurity to hands-on experience with tools and techniques used by professionals. **The internship will run from December 1, 2024, to January 30, 2025**. Over these two months, you will develop a solid understanding of the cybersecurity landscape, gain practical skills, and take your first steps into the field of ethical hacking and network defense.
 
 ## ⏰ Time and Date Information
-- **Start Date:** December 1, 2024
-- **End Date:** January 30, 2025
+- **Start Date:** Jan 1, 2025
+- **End Date:** Feb 28, 2025
 
 ### SecureByte Cybersecurity Internship Countdown Timer
 
-The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **December 1, 2024** is below. 
+The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **December 28, 2024** is below. 
 
 <div id="countdown" style="font-size: 2em; color: #e63946;"></div> 
 
@@ -24,7 +24,7 @@ The countdown to the start of the **SecureByte Cybersecurity Internship for Begi
 
 <script>
   // Set the date we're counting down to
-  const countDownDate = new Date("December 1, 2024 00:00:00").getTime();
+  const countDownDate = new Date("December 28, 2024 00:00:00").getTime();
 
   // Update the countdown every 1 second
   const x = setInterval(function() {
