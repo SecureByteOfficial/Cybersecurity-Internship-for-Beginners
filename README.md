@@ -131,23 +131,39 @@ No prior cybersecurity or programming knowledge is needed—this internship is d
 
 ## 👨‍🏫 Instructor Profile
 
-### Naem Azam Chowdhury
-![Naem Azam Chowdhury](https://your-image-link.com) 
+<div style="display: flex; align-items: center; gap: 20px; padding: 15px; background-color: #f8f9fa; border: 1px solid #e1e4e8; border-radius: 8px;">
+  
+  <!-- Profile Image -->
+  <img src="https://pbs.twimg.com/profile_images/1844791721571602432/M4jiVjeE_400x400.jpg" alt="Naem Azam Chowdhury" width="150" style="border-radius: 50%; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+  
+  <!-- Profile Text and Buttons -->
+  <div style="flex: 1;">
+    <h3 style="margin: 0; font-size: 1.5em;">Naem Azam Chowdhury</h3>
+    <p style="margin: 5px 0;"><strong>Position:</strong> Security Researcher, China</p>
+    <p style="margin: 5px 0;"><strong>Expertise:</strong> Cybersecurity, Ethical Hacking, AI, Web Development</p>
 
-**Position:** Security Researcher, China  
-**Expertise:** Cybersecurity, Ethical Hacking, AI, Web Development
+   <p style="margin-top: 10px; line-height: 1.5;">
+      Naem Azam Chowdhury is a renowned cybersecurity expert leading innovative research and development in cybersecurity and AI. With a gold medal in Computer Science and an MS in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
+   </p>
 
-**About Naem:**
-Naem Azam Chowdhury is a renowned cybersecurity expert leading innovative cybersecurity and AI research and development. With a strong academic background, including a gold medal in Computer Science and a Master’s degree in Cybersecurity, Naem is dedicated to educating the next generation of cybersecurity professionals.
+   <p style="margin: 5px 0;"><strong>Achievements:</strong></p>
+   <ul style="margin-left: 20px;">
+      <li>Gold Medal in Computer Science</li>
+      <li>Gold Medalist at the Global AI Competition, China</li>
+      <li>Founder of initiatives aimed at increasing cybersecurity awareness and skills</li>
+   </ul>
 
-**Achievements:**
-- **Gold Medal** in Computer Science
-- **Gold Medalist** at the Global AI Competition China 
-- Founder of multiple educational initiatives aimed at increasing cybersecurity awareness and skills
+   <p style="margin: 5px 0;"><strong>Teaching Philosophy:</strong> Naem believes in hands-on learning and fostering a collaborative environment. He is committed to equipping students with the knowledge they need to excel in cybersecurity.</p>
 
-**Teaching Philosophy:**
-Naem believes in hands-on learning and fostering a collaborative environment. He is committed to providing students with the tools and knowledge they need to excel in the field of cybersecurity.
-
-**Connect with Naem:**
-- [YouTube Channel](https://www.youtube.com/@NaemAzamChowdhury) 
-
+   <!-- Social Media Buttons -->
+   <div style="margin-top: 15px;">
+      <a href="https://www.youtube.com/@NaemAzamChowdhury" style="display: inline-block; background-color: #FF0000; color: white; padding: 8px 15px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px;">
+        YouTube Channel
+      </a>
+      
+<a href="https://x.com/naemazamchow" style="display: inline-block; background-color: #1DA1F2; color: white; padding: 8px 15px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+        Twitter
+      </a>
+   </div>
+  </div>
+</div>
