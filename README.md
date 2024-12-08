@@ -9,11 +9,11 @@ Welcome to the **SecureByte Cybersecurity Internship for Beginners**! 🎉 This 
 
 ## ⏰ Time and Date Information
 - **Start Date:** Jan 1, 2025
-- **End Date:** Jan 30, 2025
+- **End Date:** Feb 28, 2025
 
 ### SecureByte Cybersecurity Internship Countdown Timer
 
-The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **December 28, 2024** is below. 
+The countdown to the start of the **SecureByte Cybersecurity Internship for Beginners** on **January 1, 2025** is below. 
 
 <div id="countdown" style="font-size: 2em; color: #e63946;"></div> 
 
@@ -55,7 +55,7 @@ The countdown to the start of the **SecureByte Cybersecurity Internship for Begi
 
 
 ## 🏷️ Batch Information
-Sit: 500 Only 
+Sit: 200 Only 
 [![Batch #1](https://img.shields.io/badge/Batch%20%231-Active-brightgreen)](https://your-link-here) <!-- Replace with your link if needed -->
 
 ## 🔗 Important Links
@@ -63,7 +63,7 @@ Sit: 500 Only
     <a href="https://forms.gle/jzeNZ7dtLZ65A4Vw6">
         <img src="https://img.shields.io/badge/Registration-007bff?style=for-the-badge&logo=register" alt="Registration">
     </a>
-    <a href="https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/SecureByte_Beginners_Cybersecurity_Internship_Overview.pdf">
+    <a href="https://github.com/SecureByteOfficial/Cybersecurity-Internship-for-Beginners/blob/main/Overview%20of%20SecureByte_Cybersecurity_Internship_Guide.pdf">
         <img src="https://img.shields.io/badge/Download%20Syllabus-007bff?style=for-the-badge&logo=download" alt="Download Overview">
     </a>
     <a href="https://www.facebook.com/groups/securebytecommunity" target="_blank">
