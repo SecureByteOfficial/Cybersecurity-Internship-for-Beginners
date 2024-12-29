@@ -1,173 +1,989 @@
-&#60;!DOCTYPE html&#62; &#60;html lang="en"&#62; &#60;head&#62; &#60;meta charset="UTF-8"&#62; &#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62; &#60;title&#62;SecureByte Cybersecurity Internship(CSCI) for Beginners&#60;/title&#62;
-&#60;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"&#62; &#60;link rel="stylesheet" href="index.css"&#62; &#60;link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&#38;family=Plus+Jakarta+Sans:wght@200..800&#38;family=JetBrains+Mono:wght@100..800&#38;display=swap"
-rel="stylesheet"&#62; &#60;script defer src="index.js"&#62;&#60;/script&#62; &#60;!-- Favicons --&#62; &#60;!-- PNG Icon --&#62; &#60;link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96"&#62; &#60;!-- SVG Icon --&#62; &#60;link rel="icon"
-type="image/svg+xml" href="./favicon.svg"&#62; &#60;!-- Shortcut Icon --&#62; &#60;link rel="shortcut icon" href="./favicon.ico"&#62; &#60;!-- Apple Touch Icon --&#62; &#60;link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"&#62;
-&#60;!-- Web App Settings --&#62; &#60;meta name="apple-mobile-web-app-title" content="SB Internships"&#62; &#60;link rel="manifest" href="./site.webmanifest"&#62; &#60;/head&#62; &#60;body&#62; &#60;nav class="navbar"&#62; &#60;div class="nav-container"&#62;
-&#60;div class="logo-cr"&#62; &#60;a href="index.html" class="logo-link"&#62; &#60;span class="logo-text"&#62;SecureByte&#60;/span&#62; &#60;/a&#62; &#60;/div&#62; &#60;button class="mobile-menu-btn" aria-label="Toggle navigation"&#62; &#60;i class="fas
-fa-bars"&#62;&#60;/i&#62; &#60;/button&#62; &#60;div class="nav-items"&#62; &#60;div class="nav-item" data-dropdown&#62; &#60;button class="nav-button"&#62; Explore Courses &#60;i class="fas fa-chevron-down"&#62;&#60;/i&#62; &#60;/button&#62; &#60;div
-class="dropdown-menu"&#62; &#60;a href="#" class="dropdown-item"&#62; &#60;i class="fas fa-chart-line"&#62;&#60;/i&#62; Data Analytics &#60;/a&#62; &#60;a href="#" class="dropdown-item"&#62; &#60;i class="fas fa-shield-alt"&#62;&#60;/i&#62; Cyber Security
-&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="nav-item" data-dropdown&#62; &#60;button class="nav-button"&#62; Online Exams &#60;i class="fas fa-chevron-down"&#62;&#60;/i&#62; &#60;/button&#62; &#60;div class="dropdown-menu"&#62; &#60;a href="https://www.udemy.com/course/cybersecurity-essentials-quiz-are-you-ready-to-defend/?couponCode=I_L_SB"
-class="dropdown-item"&#62; &#60;i class="fas fa-graduation-cap"&#62;&#60;/i&#62; Cybersecurity Essentials &#60;/a&#62; &#60;a href="https://www.udemy.com/course/stay-hidden-anonymity-and-privacy-fundamentals-quiz/?referralCode=1C366AB2C30F2033D204" class="dropdown-item"&#62;
-&#60;i class="fas fa-graduation-cap"&#62;&#60;/i&#62; Stay Hidden &#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;a href="#" class="login-btn"&#62; &#60;i class="fas fa-sign-in-alt"&#62;&#60;/i&#62; Exam &#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;/nav&#62;
-&#60;div class="banner"&#62; 🎓 Ethical Hacking Mentorship Program | Starts 1th March 2025 | Limited Seats! &#60;/div&#62; &#60;div class="showcase-wrapper"&#62; &#60;div class="showcase-container"&#62; &#60;div class="content-left"&#62; &#60;span class="job-ready-tag"&#62;🎓
-Certified SecureByte CyberSecurity Intern (CSCI)&#60;/span&#62; &#60;h1 class="main-title"&#62;SecureByte CyberSecurity Internship for Beginners&#60;/h1&#62; &#60;p class="description"&#62; Welcome to the SecureByte CyberSecurity Internship for Beginners!
-The Certified SecureByte CyberSecurity Intern (CSCI) designation is a prestigious certification that recognizes individuals who successfully complete SecureByte's intensive 2-month cybersecurity internship program. This beginner-friendly program is designed
-to equip aspiring cybersecurity professionals with foundational knowledge and practical skills to kickstart their careers in the cybersecurity domain. &#60;/p&#62; &#60;div class="stats-container"&#62; &#60;div class="stat-card"&#62; &#60;div class="stat-number"&#62;&#9200;
-Program Duration&#60;/div&#62; &#60;div class="stat-label"&#62;Start: Jan 1, 2025&#60;br&#62;End: Feb 28, 2025&#60;/div&#62; &#60;/div&#62; &#60;div class="stat-card"&#62; &#60;div class="stat-number"&#62;👥 Limited Seats&#60;/div&#62; &#60;div class="stat-label"&#62;200
-Seats Only&#60;br&#62;Industry Mentors&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="countdown-section"&#62; &#60;h3 class="countdown-title"&#62;Program Starts In&#60;/h3&#62; &#60;div class="countdown-container"&#62; &#60;div class="countdown-item"&#62;
-&#60;div class="countdown-value" id="days"&#62;00&#60;/div&#62; &#60;div class="countdown-label"&#62;Days&#60;/div&#62; &#60;/div&#62; &#60;div class="countdown-item"&#62; &#60;div class="countdown-value" id="hours"&#62;00&#60;/div&#62; &#60;div class="countdown-label"&#62;Hours&#60;/div&#62;
-&#60;/div&#62; &#60;div class="countdown-item"&#62; &#60;div class="countdown-value" id="minutes"&#62;00&#60;/div&#62; &#60;div class="countdown-label"&#62;Minutes&#60;/div&#62; &#60;/div&#62; &#60;div class="countdown-item"&#62; &#60;div class="countdown-value"
-id="seconds"&#62;00&#60;/div&#62; &#60;div class="countdown-label"&#62;Seconds&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="buttons-container"&#62; &#60;a href="#" class="primary-btn"&#62;📅 Book Exam&#60;/a&#62; &#60;a href="assets/download_syllabus.pdf"
-class="secondary-btn"&#62;📚 Download Curriculum&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="content-right"&#62; &#60;img src="assets/banner.jpg" alt="Course students" style="width: 100%; border-radius: 4px; margin-bottom: 1rem;"&#62; &#60;h3&#62;Next
-Cohort Starts&#60;/h3&#62; &#60;p class="price-tag"&#62; &#60;span class="original-price"&#62;3,000 BDT&#60;/span&#62; Free &#60;/p&#62; &#60;p&#62;&#10024; No cost For Tranning &#60;/p&#62; &#60;a href="https://docs.google.com/forms/d/e/1FAIpQLSccLXv8rzsJqzsUBQwB0_Lpw_hei-hjZj9EgahfYl22jPULvw/viewform"
-class="enroll-btn"&#62;Register Now&#60;/a&#62; &#60;p style="margin-top: 1rem; font-size: 0.9rem; color: #6b7280;"&#62; Exam fee can be paid via custom payment link. Non-refundable and non-transferable. &#60;/p&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;!-- &#60;div class="main-content" id="ch"&#62; &#60;h3&#62;Our learners work at top companies&#60;/h3&#62; &#60;/div&#62; &#60;div class="companies-section"&#62; &#60;div class="logo-scroll"&#62; &#60;div class="logo-container"&#62; &#60;img src="assets/wal.jpg"
-alt="Company Logo"&#62; &#60;img src="assets/dullingo.jpg" alt="Company Logo"&#62; &#60;img src="assets/air.jpg" alt="Company Logo"&#62; &#60;img src="adobe-logo.png" alt="Company Logo"&#62; &#60;img src="assets/m.jpg" alt="Company Logo"&#62; &#60;img
-src="accenture-logo.png" alt="Company Logo"&#62; &#60;img src="assets/google.jpg" alt="Company Logo"&#62; &#60;img src="assets/meta.jpg" alt="Company Logo"&#62; &#60;img src="assets/ex.jpg" alt="Company Logo"&#62; &#60;img src="assets/len.jpg" alt="Company
-Logo"&#62; &#60;img src="assets/ola-logo.jpg" alt="Company Logo"&#62; &#60;/div&#62; &#60;div class="logo-container"&#62; &#60;img src="assets/wal.jpg" alt="Company Logo"&#62; &#60;img src="assets/dullingo.jpg" alt="Company Logo"&#62; &#60;img src="assets/air.jpg"
-alt="Company Logo"&#62; &#60;img src="adobe-logo.png" alt="Company Logo"&#62; &#60;img src="assets/m.jpg" alt="Company Logo"&#62; &#60;img src="accenture-logo.png" alt="Company Logo"&#62; &#60;img src="assets/google.jpg" alt="Company Logo"&#62; &#60;img
-src="assets/meta.jpg" alt="Company Logo"&#62; &#60;img src="assets/ex.jpg" alt="Company Logo"&#62; &#60;img src="assets/len.jpg" alt="Company Logo"&#62; &#60;img src="assets/ola-logo.jpg" alt="Company Logo"&#62; &#60;/div&#62; &#60;div class="logo-container"&#62;
-&#60;img src="assets/wal.jpg" alt="Company Logo"&#62; &#60;img src="assets/dullingo.jpg" alt="Company Logo"&#62; &#60;img src="assets/air.jpg" alt="Company Logo"&#62; &#60;img src="adobe-logo.png" alt="Company Logo"&#62; &#60;img src="assets/m.jpg" alt="Company
-Logo"&#62; &#60;img src="accenture-logo.png" alt="Company Logo"&#62; &#60;img src="assets/google.jpg" alt="Company Logo"&#62; &#60;img src="assets/meta.jpg" alt="Company Logo"&#62; &#60;img src="assets/ex.jpg" alt="Company Logo"&#62; &#60;img src="assets/len.jpg"
-alt="Company Logo"&#62; &#60;img src="assets/ola-logo.jpg" alt="Company Logo"&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; --&#62; &#60;div class="cr3"&#62; &#60;h1 class="title"&#62;Who Should Join SecureByte Cybersecurity Course?&#60;/h1&#62; &#60;div
-class="carousel"&#62; &#60;!-- Original cards --&#62; &#60;div class="card"&#62; &#60;img src="assets/fa.jpg" alt="Financial Analysts"&#62; &#60;h3&#62;Financial Analysts&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/prof.jpg"
-alt="Professionals"&#62; &#60;h3&#62;Professionals&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/s.jpg" alt="Students"&#62; &#60;h3&#62;Students&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/da.jpg"
-alt="Data Analysts"&#62; &#60;h3&#62;Data Analysts&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/it.jpg" alt="IT Specialists"&#62; &#60;h3&#62;IT Specialists&#60;/h3&#62; &#60;/div&#62; &#60;!-- Cloned cards for smooth infinite
-scroll --&#62; &#60;div class="card"&#62; &#60;img src="assets/fa.jpg" alt="Financial Analysts"&#62; &#60;h3&#62;Financial Analysts&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/prof.jpg" alt="Professionals"&#62; &#60;h3&#62;Professionals&#60;/h3&#62;
-&#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/s.jpg" alt="Students"&#62; &#60;h3&#62;Students&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/da.jpg" alt="Data Analysts"&#62; &#60;h3&#62;Data Analysts&#60;/h3&#62;
-&#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/it.jpg" alt="IT Specialists"&#62; &#60;h3&#62;IT Specialists&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/fa.jpg" alt="Financial Analysts"&#62; &#60;h3&#62;Financial
-Analysts&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/prof.jpg" alt="Professionals"&#62; &#60;h3&#62;Professionals&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/s.jpg" alt="Students"&#62; &#60;h3&#62;Students&#60;/h3&#62;
-&#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/da.jpg" alt="Data Analysts"&#62; &#60;h3&#62;Data Analysts&#60;/h3&#62; &#60;/div&#62; &#60;div class="card"&#62; &#60;img src="assets/it.jpg" alt="IT Specialists"&#62; &#60;h3&#62;IT Specialists&#60;/h3&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="main-content"&#62; &#60;h1 class="title"&#62;SecureByte Cybersecurity Course Highlights&#60;/h1&#62; &#60;/div&#62; &#60;div class="main-content"&#62; &#60;div class="nav-buttons"&#62; &#60;br&#62;
-&#60;button class="nav-button active" data-section="career"&#62;Who This Internship is For&#60;/button&#62; &#60;button class="nav-button" data-section="geeks"&#62;Prerequisites&#60;/button&#62; &#60;button class="nav-button" data-section="curriculum"&#62;Certification
-and Exam&#60;/button&#62; &#60;button class="nav-button" data-section="cohort"&#62;Certification and Advanced Opportunities &#60;/button&#62; &#60;/div&#62; &#60;div class="content-section"&#62; &#60;div id="career" class="highlight-card active"&#62;
-&#60;div class="card-content"&#62; &#60;div class="text-content"&#62; &#60;h2 class="card-title"&#62;Who This Internship is For&#60;/h2&#62; &#60;p class="card-description"&#62;If you're passionate about technology, love problem-solving, and are looking
-to take your first step into cybersecurity, this internship is made for you!&#60;/p&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Are curious about cybersecurity but have little to no prior
-experience. .&#60;/p&#62; &#60;/div&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Are considering a career in cybersecurity and want to understand the basics.&#60;/p&#62; &#60;/div&#62; &#60;div
-class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Want to learn practical skills in ethical hacking, network security, and threat prevention.&#60;/p&#62; &#60;/div&#62; &#60;div class="bullet-point"&#62; &#60;div
-class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;SecureByte followers eager to gain in-depth knowledge directly from experts.&#60;/p&#62; &#60;/div&#62; &#60;/div&#62; &#60;img src="assets/1.jpg" alt="Career Launch" class="image"&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;div id="geeks" class="highlight-card"&#62; &#60;div class="card-content"&#62; &#60;div class="text-content"&#62; &#60;h2 class="card-title"&#62;Prerequisites&#60;/h2&#62; &#60;p class="card-description"&#62;No prior cybersecurity or
-programming knowledge is needed&#8212;this internship is designed for absolute beginners! To participate in this internship, you only need.&#60;/p&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;A
-Computer: Laptop or desktop that can run virtual machines and basic tools.&#60;/p&#62; &#60;/div&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Internet Access: A stable internet connection for
-online labs, sessions, and assignments&#60;/p&#62; &#60;/div&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Basic Computer Skills: Familiarity with general computer functions (no programming
-or technical skills are required).&#60;/p&#62; &#60;/div&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Commitment and Enthusiasm: A willingness to learn, complete assignments, and engage in
-discussions.&#60;/p&#62; &#60;/div&#62; &#60;/div&#62; &#60;img src="assets/3.jpg" alt="Guided Learning" class="image"&#62; &#60;/div&#62; &#60;/div&#62; &#60;div id="curriculum" class="highlight-card"&#62; &#60;div class="card-content"&#62; &#60;div
-class="text-content"&#62; &#60;h2 class="card-title"&#62;Certified SecureByte Cyber Security Intern (CSCI)&#60;/h2&#62; &#60;p class="card-description"&#62;The Certified SecureByte Cyber Security Intern (CSCI) designation is a prestigious certification
-awarded to individuals who successfully passed exam after SecureByte's intensive 2 Months cybersecurity internship.&#60;/p&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Upon completing the internship,
-participants must pass a rigorous 1-hour open-book Multiple-Choice Question (MCQ) test, designed to comprehensively assess their theoretical understanding and practical proficiency, with a minimum score of 70% required for certification.&#60;/p&#62; &#60;/div&#62;
-&#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Ambassador Program Membership: Exceptional interns will have the chance to join SecureByte's exclusive Ambassador Program, where they will represent
-SecureByte in the cybersecurity community, participate in specialized training, and benefit from unique learning experiences.&#60;/p&#62; &#60;/div&#62; &#60;/div&#62; &#60;img src="assets/CSCI.png" alt="Project Curriculum" class="image"&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;div id="cohort" class="highlight-card"&#62; &#60;div class="card-content"&#62; &#60;div class="text-content"&#62; &#60;h2 class="card-title"&#62;Career and Advanced Opportunities&#60;/h2&#62; &#60;p class="card-description"&#62;Leverage
-your certification for career opportunities across international cybersecurity firms.&#60;/p&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Professional Recognition: Establish credibility in
-the cybersecurity industry with the prestigious CSCI certification.&#60;/p&#62; &#60;/div&#62; &#60;div class="bullet-point"&#62; &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62; &#60;p&#62;Advanced Training: Gain eligibility for SecureByte&#8217;s
-specialized programs in ethical hacking, digital forensics, and AI-powered security. &#60;/div&#62; &#60;/div&#62; &#60;img src="assets/4.jpg" alt="Cohort Learning" class="image"&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;div
-class="main-content"&#62; &#60;div class="hr"&#62; &#60;h1&#62;What We Offer in the SecureByte Cybersecurity Internship&#60;/h1&#62; &#60;p&#62;Your Roadmap to Become a Certified Cybersecurity Interner&#60;/p&#62; &#60;button class="apply-btn"&#62; &#60;a
-href="https://docs.google.com/forms/d/e/1FAIpQLSccLXv8rzsJqzsUBQwB0_Lpw_hei-hjZj9EgahfYl22jPULvw/viewform" class="apply-btn-link"&#62;Apply Now&#60;/a&#62;&#60;/button&#62; &#60;/div&#62; &#60;div class="steps-container"&#62; &#60;div class="step"&#62;
-&#60;div class="step-icon"&#62;💡&#60;/div&#62; &#60;div class="step-content"&#62; &#60;div class="step-title"&#62;Foundational Knowledge 📚&#60;/div&#62; &#60;div class="step-description"&#62;We start from scratch, teaching you the essential principles
-of cybersecurity, network security basics, and operating system fundamentals.&#60;/div&#62; &#60;div class="tags"&#62; &#60;span class="tag"&#62;Live Classes&#60;/span&#62; &#60;span class="tag"&#62;Self-Paced&#60;/span&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;div class="step"&#62; &#60;div class="step-icon"&#62;🛠️&#60;/div&#62; &#60;div class="step-content"&#62; &#60;div class="step-title"&#62;Hands-On Labs and Practical Exercises &#60;/div&#62; &#60;div class="step-description"&#62; &#60;ul
-style="padding: 15px;"&#62; &#60;li&#62;Guided Virtual Labs: Practice with ethical hacking and security tools such as Kali Linux, Nmap, Metasploit, Wireshark, and more in a safe, virtual environment.&#60;/li&#62; &#60;li&#62;Real-World Scenarios: Dive
-into incident response simulations, network scans, and hands-on vulnerability analysis exercises.&#60;/li&#62; &#60;li&#62;Tool Demonstrations: Learn the essentials of key cybersecurity tools, including Nmap for network scanning, Wireshark for traffic
-analysis, Metasploit for testing vulnerabilities, and more.&#60;/li&#62; &#60;li&#62;Step-by-Step Practice: Get guidance on installing, navigating, and using these tools to understand their purpose in cybersecurity.&#60;/li&#62; &#60;/ul&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;div class="step"&#62; &#60;div class="step-icon"&#62;💼&#60;/div&#62; &#60;div class="step-content"&#62; &#60;div class="step-title"&#62;Personalized Career Guidance &#60;/div&#62; &#60;div class="step-description"&#62;Live
-Classes Led by Naem Azam Chowdhury. Gain insights into entry-level cybersecurity roles, industry-recognized certifications, and strategic guidance on advancing your cybersecurity career beyond the internship.&#60;/div&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;div class="step"&#62; &#60;div class="step-icon"&#62;🎓&#60;/div&#62; &#60;div class="step-content"&#62; &#60;div class="step-title"&#62;Certification and Advanced Opportunities for Successful Interns &#60;/div&#62; &#60;div class="step-description"&#62;Successful
-interns who pass the final assessment will earn a SecureByte certification. Certified interns gain exclusive access to mentorship from SecureByte experts, entry into the Ambassador Program, and advanced training opportunities. Outstanding participants
-may also qualify to guide future intern cohorts as mentors. This support network provides ongoing learning, professional development, and new opportunities within SecureByte&#8217;s cybersecurity community.&#60;/div&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="main-content"&#62; &#60;!-- Course Overview Section --&#62; &#60;section class="course-overview"&#62; &#60;div class="header"&#62; &#60;div class="header-content"&#62; &#60;h1&#62;SecureByte
-Cybersecurity Internship for Beginners&#60;/h1&#62; &#60;h4&#62;Master the art of Cybersecurity with hands-on practice and expert guidance&#60;/h4&#62; &#60;/div&#62; &#60;a href="assets/download_syllabus.pdf" class="download-btn" aria-label="Download
-Course Curriculum"&#62; &#60;i class="icon-download"&#62;&#60;/i&#62; Download Curriculum &#60;/a&#62; &#60;/div&#62; &#60;!-- Course Statistics --&#62; &#60;div class="course-info"&#62; &#60;div class="info-item"&#62; &#60;span class="info-label"&#62;
-&#60;i class="icon-duration"&#62;&#60;/i&#62; Duration &#60;/span&#62; &#60;strong&#62;2 Months&#60;/strong&#62; &#60;/div&#62; &#60;div class="info-item"&#62; &#60;span class="info-label"&#62; &#60;i class="icon-mode"&#62;&#60;/i&#62; Mode &#60;/span&#62;
-&#60;strong&#62;Online&#60;/strong&#62; &#60;/div&#62; &#60;div class="info-item"&#62; &#60;span class="info-label"&#62; &#60;i class="icon-sessions"&#62;&#60;/i&#62; Live Sessions &#60;/span&#62; &#60;strong&#62;16+ hrs&#60;/strong&#62; &#60;/div&#62;
-&#60;div class="info-item"&#62; &#60;span class="info-label"&#62; &#60;i class="icon-projects"&#62;&#60;/i&#62; Exam &#60;/span&#62; &#60;strong&#62;Yes&#60;/strong&#62; &#60;/div&#62; &#60;div class="placement-support"&#62; &#60;i class="icon-star"&#62;&#60;/i&#62;
-&#60;span&#62;Placement Support&#60;/span&#62; &#60;/div&#62; &#60;/div&#62; &#60;/section&#62; &#60;!-- Course Modules Section --&#62; &#60;section class="course-modules" id="modules-container"&#62; &#60;h2 class="section-title"&#62;Course Curriculum&#60;/h2&#62;
-&#60;!-- Module 1: Networking --&#62; &#60;article class="module" data-module="1"&#62; &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module1-content"&#62; &#60;div class="module-title"&#62; &#60;span class="module-number"&#62;Module
-1&#60;/span&#62; &#60;strong&#62; Cyber Foundations &#60;/strong&#62; &#60;/div&#62; &#60;div class="module-badges"&#62; &#60;span class="badge" title="Number of live classes"&#62; &#60;i class="icon-class"&#62;&#60;/i&#62; 7 Live Classes &#60;/span&#62;
-&#60;span class="badge" title="Includes assignment"&#62; &#60;i class="icon-assignment"&#62;&#60;/i&#62; Assignment &#60;/span&#62; &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;div class="module-content" id="module1-content" hidden&#62; &#60;ul class="topic-list" role="list"&#62; &#60;li class="topic-item"&#62;Introduction to cybersecurity principles, terminologies, and core concepts.&#60;/li&#62; &#60;li class="topic-item"&#62;Understanding
-threats, vulnerabilities, and defense mechanisms.&#60;/li&#62; &#60;li class="topic-item"&#62;Basics of cybersecurity ethics and responsible practices.&#60;/li&#62; &#60;/ul&#62; &#60;/div&#62; &#60;/article&#62; &#60;!-- Module 2: network --&#62; &#60;article
-class="module" data-module="2"&#62; &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62; &#60;div class="module-title"&#62; &#60;span class="module-number"&#62;Module 2&#60;/span&#62; &#60;strong&#62;Network
-Basics&#60;/strong&#62; &#60;/div&#62; &#60;div class="module-badges"&#62; &#60;span class="badge" title="Number of live classes"&#62; &#60;i class="icon-class"&#62;&#60;/i&#62; 4 Live Classes &#60;/span&#62; &#60;span class="badge" title="Includes assignment"&#62;
-&#60;i class="icon-assignment"&#62;&#60;/i&#62; Assignment &#60;/span&#62; &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="module-content" id="module2-content" hidden&#62;
-&#60;ul class="topic-list" role="list"&#62; &#60;li class="topic-item"&#62;Fundamentals of networking: protocols, devices, and architecture.&#60;/li&#62; &#60;li class="topic-item"&#62;Securing networks and identifying potential vulnerabilities.&#60;/li&#62;
-&#60;li class="topic-item"&#62;Introduction to network mapping and traffic analysis.&#60;/li&#62; &#60;/ul&#62; &#60;/div&#62; &#60;/article&#62; &#60;!-- Module 3: Linux --&#62; &#60;article class="module" data-module="3"&#62; &#60;div class="module-header"
-role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62; &#60;div class="module-title"&#62; &#60;span class="module-number"&#62;Module 3&#60;/span&#62; &#60;strong&#62;OS Essentials&#60;/strong&#62; &#60;/div&#62; &#60;div
-class="module-badges"&#62; &#60;span class="badge" title="Number of live classes"&#62; &#60;i class="icon-class"&#62;&#60;/i&#62; 4 Live Classes &#60;/span&#62; &#60;span class="badge" title="Includes assignment"&#62; &#60;i class="icon-assignment"&#62;&#60;/i&#62;
-Assignment &#60;/span&#62; &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="module-content" id="module2-content" hidden&#62; &#60;ul class="topic-list" role="list"&#62;
-&#60;li class="topic-item"&#62;Setting up virtual environment&#60;/li&#62; &#60;li class="topic-item"&#62;Core operating system concepts in cybersecurity contexts.&#60;/li&#62; &#60;li class="topic-item"&#62;Basics of securing and managing OS vulnerabilities.&#60;/li&#62;
-&#60;li class="topic-item"&#62;Basic Linux commands (Practical)&#60;/li&#62; &#60;li class="topic-item"&#62;Advanced Linux commands (Practical)&#60;/li&#62; &#60;li class="topic-item"&#62;Getting Familiar with Linux OS&#60;/li&#62; &#60;/ul&#62; &#60;/div&#62;
-&#60;/article&#62; &#60;!-- Module 3: Offensive Techniques --&#62; &#60;article class="module" data-module="3"&#62; &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62; &#60;div class="module-title"&#62;
-&#60;span class="module-number"&#62;Module 4&#60;/span&#62; &#60;strong&#62;Offensive Techniques&#60;/strong&#62; &#60;/div&#62; &#60;div class="module-badges"&#62; &#60;span class="badge" title="Number of live classes"&#62; &#60;i class="icon-class"&#62;&#60;/i&#62;
-4 Live Classes &#60;/span&#62; &#60;span class="badge" title="Includes assignment"&#62; &#60;i class="icon-assignment"&#62;&#60;/i&#62; Assignment &#60;/span&#62; &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;div class="module-content" id="module2-content" hidden&#62; &#60;ul class="topic-list" role="list"&#62; &#60;li class="topic-item"&#62;Kali Linux Mastery: Configure hacking labs and perform reconnaissance.&#60;/li&#62;
-&#60;li class="topic-item"&#62;Scanning &#38; Reconnaissance: Identify vulnerabilities like a cyber detective.&#60;/li&#62; &#60;li class="topic-item"&#62;System Hacking: Understand exploitation techniques and vulnerabilities.&#60;/li&#62; &#60;/ul&#62;
-&#60;/div&#62; &#60;/article&#62; &#60;!-- Module 3: Linux --&#62; &#60;article class="module" data-module="3"&#62; &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62; &#60;div class="module-title"&#62;
-&#60;span class="module-number"&#62;Module 5&#60;/span&#62; &#60;strong&#62;Specialized Skills&#60;/strong&#62; &#60;/div&#62; &#60;div class="module-badges"&#62; &#60;span class="badge" title="Number of live classes"&#62; &#60;i class="icon-class"&#62;&#60;/i&#62;
-4 Live Classes &#60;/span&#62; &#60;span class="badge" title="Includes assignment"&#62; &#60;i class="icon-assignment"&#62;&#60;/i&#62; Assignment &#60;/span&#62; &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;div class="module-content" id="module2-content" hidden&#62; &#60;ul class="topic-list" role="list"&#62; &#60;li class="topic-item"&#62;Wireless Hacking: Testing Wi-Fi security and vulnerabilities.&#60;/li&#62; &#60;li
-class="topic-item"&#62;OSINT: Gathering public information for investigative purposes.&#60;/li&#62; &#60;li class="topic-item"&#62;Social Engineering: Ethical manipulation to test human weaknesses.&#60;/li&#62; &#60;/ul&#62; &#60;/div&#62; &#60;/article&#62;
-&#60;!-- Additional modules follow the same pattern --&#62; &#60;!-- For brevity, showing two modules as example --&#62; &#60;/section&#62; &#60;/div&#62; &#60;div class="cr7"&#62; &#60;header&#62; &#60;h1&#62;Career Growth Hub&#60;/h1&#62; &#60;p class="subtitle"&#62;Empowering
-Your Professional Journey with Comprehensive Career Development Solutions&#60;/p&#62; &#60;/header&#62; &#60;div class="services-grid"&#62; &#60;div class="service-card"&#62; &#60;div class="service-icon"&#62; &#60;img src="./assets/cv.png" alt="Resume
-icon"&#62; &#60;/div&#62; &#60;h3 class="service-title"&#62;Resume Mastery&#60;/h3&#62; &#60;p class="service-description"&#62;Transform your resume into a powerful career tool with expert guidance and ATS-optimized templates that highlight your unique
-value proposition.&#60;/p&#62; &#60;/div&#62; &#60;div class="service-card"&#62; &#60;div class="service-icon"&#62; &#60;img src="./assets/linkedin.png" alt="LinkedIn icon"&#62; &#60;/div&#62; &#60;h3 class="service-title"&#62;LinkedIn Excellence&#60;/h3&#62;
-&#60;p class="service-description"&#62;Optimize your LinkedIn presence with a strategic profile that attracts recruiters and builds meaningful professional connections.&#60;/p&#62; &#60;/div&#62; &#60;div class="service-card"&#62; &#60;div class="service-icon"&#62;
-&#60;img src="./assets/github.png" alt="GitHub icon"&#62; &#60;/div&#62; &#60;h3 class="service-title"&#62;GitHub Portfolio&#60;/h3&#62; &#60;p class="service-description"&#62;Showcase your technical expertise with a curated GitHub profile that demonstrates
-your coding abilities and project management skills.&#60;/p&#62; &#60;/div&#62; &#60;div class="service-card"&#62; &#60;div class="service-icon"&#62; &#60;img src="/api/placeholder/80/80" alt="Portfolio icon"&#62; &#60;/div&#62; &#60;h3 class="service-title"&#62;Digital
-Portfolio&#60;/h3&#62; &#60;p class="service-description"&#62;Create a stunning online portfolio that showcases your work, achievements, and professional journey in an engaging and interactive format.&#60;/p&#62; &#60;/div&#62; &#60;div class="service-card"&#62;
-&#60;div class="service-icon"&#62; &#60;img src="/api/placeholder/80/80" alt="Communication icon"&#62; &#60;/div&#62; &#60;h3 class="service-title"&#62;Communication Pro&#60;/h3&#62; &#60;p class="service-description"&#62;Master the art of professional
-communication with personalized coaching on presentation skills, public speaking, and networking.&#60;/p&#62; &#60;/div&#62; &#60;div class="service-card"&#62; &#60;div class="service-icon"&#62; &#60;img src="/api/placeholder/80/80" alt="Interview icon"&#62;
-&#60;/div&#62; &#60;h3 class="service-title"&#62;Interview Success&#60;/h3&#62; &#60;p class="service-description"&#62;Ace your interviews with comprehensive preparation, real-time feedback, and industry-specific mock interview sessions.&#60;/p&#62; &#60;/div&#62;
-&#60;div class="service-card"&#62; &#60;div class="service-icon"&#62; &#60;img src="/api/placeholder/80/80" alt="Career icon"&#62; &#60;/div&#62; &#60;h3 class="service-title"&#62;Career Launch&#60;/h3&#62; &#60;p class="service-description"&#62;Get personalized
-guidance to navigate your career path, identify opportunities, and achieve your professional goals.&#60;/p&#62; &#60;/div&#62; &#60;div class="service-card"&#62; &#60;div class="service-icon"&#62; &#60;img src="/api/placeholder/80/80" alt="Career icon"&#62;
-&#60;/div&#62; &#60;h3 class="service-title"&#62;Career Launch&#60;/h3&#62; &#60;p class="service-description"&#62;Get personalized guidance to navigate your career path, identify opportunities, and achieve your professional goals.&#60;/p&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;div class="cta-section"&#62; &#60;button class="cta-button" onclick="showSuccessMessage()"&#62;Schedule Career Consultation&#60;/button&#62; &#60;/div&#62; &#60;/div&#62; &#60;div id="successMessage" class="success-message"&#62; Thanks!
-Our career advisor will contact you soon. &#60;/div&#62; &#60;div class="mentors-section"&#62; &#60;div class="mentors-header"&#62; &#60;h1&#62;Expert Mentorship Team&#60;/h1&#62; &#60;p&#62;Learn from industry-leading professionals who are passionate
-about shaping the future of cybersecurity&#60;/p&#62; &#60;/div&#62; &#60;div class="mentors-grid"&#62; &#60;div class="main-mentor"&#62; &#60;div class="mentor-card"&#62; &#60;div class="mentor-image"&#62; &#60;img src="assets/mentor.jpg" alt="Naem Azam
-Chowdhury"&#62; &#60;/div&#62; &#60;div class="mentor-info"&#62; &#60;h3&#62;Naem Azam Chowdhury&#60;/h3&#62; &#60;h4&#62;Lead Security Researcher &#38;amp; Program Director&#60;/h4&#62; &#60;p&#62;&#60;strong&#62;Core Focus:&#60;/strong&#62; Advanced
-Cybersecurity, AI Integration, Secure Development&#60;/p&#62; &#60;p&#62;A distinguished cybersecurity expert with over a decade of experience in cutting-edge research and development. Naem combines his expertise in AI and cybersecurity to pioneer innovative
-security solutions and educational methodologies.&#60;/p&#62; &#60;p&#62;&#60;strong&#62;Key Achievements:&#60;/strong&#62;&#60;/p&#62; &#60;ul class="achievements-list"&#62; &#60;li&#62;Gold Medal recipient in Computer Science (University of Science
-and Technology)&#60;/li&#62; &#60;li&#62;Champion, Global AI Security Innovation Competition 2023, China&#60;/li&#62; &#60;li&#62;Founder, CyberSafe Initiative - Empowering 10,000+ students globally&#60;/li&#62; &#60;li&#62;Published researcher with contributions
-to major security conferences&#60;/li&#62; &#60;/ul&#62; &#60;p&#62;&#60;strong&#62;Educational Philosophy:&#60;/strong&#62; "Security excellence through practical experience and collaborative innovation. Every challenge is an opportunity to learn and
-grow."&#60;/p&#62; &#60;div class="social-links"&#62; &#60;a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"&#62;YouTube Channel&#60;/a&#62; &#60;a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"&#62;Connect
-on Twitter&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;!-- &#60;div class="assistant-mentors"&#62; &#60;div class="mentor-card"&#62; &#60;div class="mentor-image"&#62; &#60;img src="assets/mentor.jpg" alt="Sarah Chen"&#62;
-&#60;/div&#62; &#60;div class="mentor-info"&#62; &#60;h3&#62;Sarah Chen&#60;/h3&#62; &#60;h4&#62;Network Security Specialist&#60;/h4&#62; &#60;p&#62;Specializing in advanced network security and threat detection, Sarah brings extensive experience in implementing
-robust security architectures for enterprise systems.&#60;/p&#62; &#60;div class="social-links"&#62; &#60;a href="#" target="_blank" rel="noopener noreferrer"&#62;Profile&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;br&#62;&#60;br&#62;
-&#60;div class="mentor-card"&#62; &#60;div class="mentor-image"&#62; &#60;img src="assets/mentor.jpg" alt="Marcus Rodriguez"&#62; &#60;/div&#62; &#60;div class="mentor-info"&#62; &#60;h3&#62;Marcus Rodriguez&#60;/h3&#62; &#60;h4&#62;Penetration Testing
-Expert&#60;/h4&#62; &#60;p&#62;OSCP certified penetration tester with expertise in red team operations and vulnerability assessment. Leading hands-on training in ethical hacking methodologies.&#60;/p&#62; &#60;div class="social-links"&#62; &#60;a href="#"
-target="_blank" rel="noopener noreferrer"&#62;Profile&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; --&#62; &#60;/div&#62; &#60;/div&#62; &#60;section class="cta-section"&#62; &#60;div class="crc"&#62; &#60;div class="cta-content"&#62;
-&#60;h2&#62;Still Confused? Want to know more?&#60;/h2&#62; &#60;div class="cta-form"&#62; &#60;input type="tel" class="phone-input" placeholder="Enter your phone number" id="phone"&#62; &#60;button class="demo-button"&#62;Book Demo Now&#60;/button&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/section&#62; &#60;div class="cr9"&#62; &#60;!-- Reviews Section --&#62; &#60;div class="reviews-section"&#62; &#60;div class="reviews-header"&#62; &#60;div class="stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
-&#60;div class="rating"&#62;4.9 (32 Reviews)&#60;/div&#62; &#60;h2&#62;Hear From Our Alumni&#60;/h2&#62; &#60;/div&#62; &#60;div class="reviews-grid"&#62; &#60;!-- Review Card 1 --&#62; &#60;div class="review-card"&#62; &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
-&#60;p class="review-text"&#62;The SecureByte internship was a game-changer for me! The hands-on approach and real-world challenges prepared me for my current role as a cybersecurity analyst.&#60;/p&#62; &#60;div class="reviewer"&#62; &#60;div class="reviewer-avatar"&#62;RH&#60;/div&#62;
-&#60;div class="reviewer-name"&#62;Rafsan Haque (Bangladesh)&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;!-- Review Card 2 --&#62; &#60;div class="review-card"&#62; &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
-&#60;p class="review-text"&#62;This program gave me the confidence and skills to start my cybersecurity journey. The mentorship and resources are unmatched!&#60;/p&#62; &#60;div class="reviewer"&#62; &#60;div class="reviewer-avatar"&#62;PS&#60;/div&#62;
-&#60;div class="reviewer-name"&#62;Priya Sharma (India)&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;!-- Review Card 3 --&#62; &#60;div class="review-card"&#62; &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62; &#60;p class="review-text"&#62;I
-loved how practical the sessions were. Learning tools like Kali Linux and Nmap made me industry-ready.&#60;/p&#62; &#60;div class="reviewer"&#62; &#60;div class="reviewer-avatar"&#62;TR&#60;/div&#62; &#60;div class="reviewer-name"&#62;Tanjim Rahman (Bangladesh)&#60;/div&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;!-- Review Card 4 --&#62; &#60;div class="review-card"&#62; &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#60;/div&#62; &#60;p class="review-text"&#62;SecureByte's internship opened doors I never thought possible.
-The certification boosted my resume and landed me a great job in cybersecurity.&#60;/p&#62; &#60;div class="reviewer"&#62; &#60;div class="reviewer-avatar"&#62;AD&#60;/div&#62; &#60;div class="reviewer-name"&#62;Arjun Desai&#60;/div&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;!-- Review Card 5 --&#62; &#60;div class="review-card"&#62; &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#60;/div&#62; &#60;p class="review-text"&#62;The interactive challenges and career guidance made this internship invaluable.
-Highly recommended for beginners!&#60;/p&#62; &#60;div class="reviewer"&#62; &#60;div class="reviewer-avatar"&#62;MC&#60;/div&#62; &#60;div class="reviewer-name"&#62;Mahira Chowdhury (Bangladesh)&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;!-- Review
-Card 6 --&#62; &#60;div class="review-card"&#62; &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62; &#60;p class="review-text"&#62;This is a wonderful course. Highly appreciated and recommended to everyone who wants to
-make a career in cybersecurity or ethical hacking.&#60;/p&#62; &#60;div class="reviewer"&#62; &#60;div class="reviewer-avatar"&#62;YY&#60;/div&#62; &#60;div class="reviewer-name"&#62;Yamin&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;/div&#62; &#60;div class="cr9"&#62; &#60;!-- FAQ Section --&#62; &#60;div class="faq-container"&#62; &#60;div class="faq-header"&#62; &#60;h2&#62;Who is eligible for the program?&#60;/h2&#62; &#60;p&#62;This program is designed for beginners, and
-no prior cybersecurity knowledge is required. Anyone with a keen interest in cybersecurity can apply.&#60;/p&#62; &#60;/div&#62; &#60;div class="faq-list"&#62; &#60;div class="faq-item"&#62; &#60;div class="faq-question"&#62; &#60;span&#62;What will I
-learn during the internship?&#60;/span&#62; &#60;div class="faq-icon"&#62;&#60;/div&#62; &#60;/div&#62; &#60;div class="faq-answer"&#62; You will gain foundational knowledge in cybersecurity, network security, operating systems, ethical hacking tools,
-and advanced techniques like OSINT, wireless hacking, and social engineering. &#60;/div&#62; &#60;/div&#62; &#60;div class="faq-item"&#62; &#60;div class="faq-question"&#62; &#60;span&#62;What is the format of the certification exam?&#60;/span&#62; &#60;div
-class="faq-icon"&#62;&#60;/div&#62; &#60;/div&#62; &#60;div class="faq-answer"&#62; The final certification exam is a 1-hour open-book Multiple-Choice Question (MCQ) test. Participants must score at least 70% to earn the Certified SecureByte Cyber Security
-Intern (CSCI) designation. &#60;/div&#62; &#60;/div&#62; &#60;div class="faq-item"&#62; &#60;div class="faq-question"&#62; &#60;span&#62;What career opportunities can I expect after completing this program?&#60;/span&#62; &#60;div class="faq-icon"&#62;&#60;/div&#62;
-&#60;/div&#62; &#60;div class="faq-answer"&#62; Upon certification, you&#8217;ll be prepared for roles like Cybersecurity Analyst, SOC Analyst, or Penetration Tester. You'll also gain eligibility for advanced SecureByte training programs and career guidance.
-&#60;/div&#62; &#60;/div&#62; &#60;div class="faq-item"&#62; &#60;div class="faq-question"&#62; &#60;span&#62;What career opportunities can I expect after completing this program?&#60;/span&#62; &#60;div class="faq-icon"&#62;&#60;/div&#62; &#60;/div&#62;
-&#60;div class="faq-answer"&#62; Upon certification, you&#8217;ll be prepared for roles like Cybersecurity Analyst, SOC Analyst, or Penetration Tester. You'll also gain eligibility for advanced SecureByte training programs and career guidance. &#60;/div&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;footer class="footer"&#62; &#60;div class="footer-container"&#62; &#60;div class="footer-top"&#62; &#60;div class="footer-logo"&#62; &#60;img src="assets/favicon.ico" alt="Securebyte Ethical
-Hacking Course"&#62; &#60;p class="footer-tagline"&#62;Elevate Your Learning Journey with Cutting-Edge Education Technology.&#60;/p&#62; &#60;div class="social-icons"&#62; &#60;a href="https://x.com/SecureByteORG" aria-label="Twitter"&#62;&#60;i class="fab
-fa-twitter"&#62;&#60;/i&#62;&#60;/a&#62; &#60;a href="#" aria-label="Instagram"&#62;&#60;i class="fab fa-instagram"&#62;&#60;/i&#62;&#60;/a&#62; &#60;a href="#" aria-label="LinkedIn"&#62;&#60;i class="fab fa-linkedin-in"&#62;&#60;/i&#62;&#60;/a&#62; &#60;a
-href="https://www.youtube.com/@securebyteofficial" aria-label="YouTube"&#62;&#60;i class="fab fa-youtube"&#62;&#60;/i&#62;&#60;/a&#62; &#60;a href="https://www.facebook.com/groups/securebytecommunity" aria-label="Facebook"&#62;&#60;i class="fab fa-facebook-f"&#62;&#60;/i&#62;&#60;/a&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;div class="footer-nav"&#62; &#60;div class="nav-section"&#62; &#60;h3&#62;Company&#60;/h3&#62; &#60;a href="#"&#62;Contact&#60;/a&#62; &#60;a href="#"&#62;About&#60;/a&#62; &#60;a href="#"&#62;WsCube Tech Blog&#60;/a&#62;
-&#60;a href="#"&#62;Self-Paced Courses&#60;/a&#62; &#60;a href="#"&#62;Events&#60;/a&#62; &#60;/div&#62; &#60;div class="nav-section"&#62; &#60;h3&#62;Our Programs&#60;/h3&#62; &#60;a href="#"&#62;Data Analytics&#60;/a&#62; &#60;a href="#"&#62;Digital
-Marketing&#60;/a&#62; &#60;a href="#"&#62;Web Development&#60;/a&#62; &#60;a href="#"&#62;Cyber Security&#60;/a&#62; &#60;a href="#"&#62;App Development&#60;/a&#62; &#60;a href="#"&#62;Design&#60;/a&#62; &#60;/div&#62; &#60;div class="nav-section"&#62;
-&#60;h3&#62;Support&#60;/h3&#62; &#60;a href="#"&#62;Privacy Policy&#60;/a&#62; &#60;a href="#"&#62;Terms &#38; Conditions&#60;/a&#62; &#60;a href="#"&#62;Refund Policy&#60;/a&#62; &#60;a href="#"&#62;FAQ's&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62;
-&#60;div class="footer-courses"&#62; &#60;div class="course-category"&#62; &#60;h3&#62;Interview Questions&#60;/h3&#62; &#60;div class="course-links"&#62; &#60;a href="#"&#62;HTML Interview Questions&#60;/a&#62; &#60;a href="#"&#62;CSS Interview Questions&#60;/a&#62;
-&#60;a href="#"&#62;PHP Interview Questions&#60;/a&#62; &#60;a href="#"&#62;JavaScript Interview Questions&#60;/a&#62; &#60;a href="#"&#62;Flutter Interview Questions&#60;/a&#62; &#60;a href="#"&#62;Data Structure Interview Questions&#60;/a&#62; &#60;a
-href="#"&#62;Java Interview Questions&#60;/a&#62; &#60;a href="#"&#62;MySQL Interview Questions&#60;/a&#62; &#60;a href="#"&#62;Python Interview Questions&#60;/a&#62; &#60;a href="#"&#62;DBMS Interview Questions&#60;/a&#62; &#60;a href="#"&#62;Power BI
-Interview Questions&#60;/a&#62; &#60;a href="#"&#62;Angular Interview Questions&#60;/a&#62; &#60;/div&#62; &#60;/div&#62; &#60;/div&#62; &#60;div class="footer-bottom"&#62; &#60;p&#62;&#169; Copyright 2024, All Rights Reserved By @SecureByte&#60;/p&#62;
-&#60;/div&#62; &#60;/div&#62; &#60;/footer&#62; &#60;/body&#62; &#60;/html&#62;
+&#60;!DOCTYPE html&#62;
+&#60;html lang="en"&#62;
+&#60;head&#62;
+    &#60;meta charset="UTF-8"&#62;
+    &#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62;
+    &#60;title&#62;SecureByte Cybersecurity Internship(CSCI) for Beginners&#60;/title&#62;
+    &#60;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"&#62;
+    &#60;link rel="stylesheet" href="index.css"&#62;
+    &#60;link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&#38;family=Plus+Jakarta+Sans:wght@200..800&#38;family=JetBrains+Mono:wght@100..800&#38;display=swap" rel="stylesheet"&#62;
+    &#60;script defer src="index.js"&#62;&#60;/script&#62;
+    
+    &#60;!-- Favicons --&#62;
+    &#60;!-- PNG Icon --&#62;
+    &#60;link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96"&#62;
+    &#60;!-- SVG Icon --&#62;
+    &#60;link rel="icon" type="image/svg+xml" href="./favicon.svg"&#62;
+    &#60;!-- Shortcut Icon --&#62;
+    &#60;link rel="shortcut icon" href="./favicon.ico"&#62;
+    &#60;!-- Apple Touch Icon --&#62;
+    &#60;link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"&#62;
+    
+    &#60;!-- Web App Settings --&#62;
+    &#60;meta name="apple-mobile-web-app-title" content="SB Internships"&#62;
+    &#60;link rel="manifest" href="./site.webmanifest"&#62;
+&#60;/head&#62;
+&#60;body&#62;
+
+    &#60;nav class="navbar"&#62;
+        &#60;div class="nav-container"&#62;
+            &#60;div class="logo-cr"&#62;
+                &#60;a href="index.html" class="logo-link"&#62;
+                    &#60;span class="logo-text"&#62;SecureByte&#60;/span&#62;
+                &#60;/a&#62;
+            &#60;/div&#62;
+            
+            &#60;button class="mobile-menu-btn" aria-label="Toggle navigation"&#62;
+                &#60;i class="fas fa-bars"&#62;&#60;/i&#62;
+            &#60;/button&#62;
+            
+            &#60;div class="nav-items"&#62;
+                &#60;div class="nav-item" data-dropdown&#62;
+                    &#60;button class="nav-button"&#62;
+                        Explore Courses 
+                        &#60;i class="fas fa-chevron-down"&#62;&#60;/i&#62;
+                    &#60;/button&#62;
+                    &#60;div class="dropdown-menu"&#62;
+                        &#60;a href="#" class="dropdown-item"&#62;
+                            &#60;i class="fas fa-chart-line"&#62;&#60;/i&#62;
+                            Data Analytics
+                        &#60;/a&#62;
+                        &#60;a href="#" class="dropdown-item"&#62;
+                            &#60;i class="fas fa-shield-alt"&#62;&#60;/i&#62;
+                            Cyber Security
+                        &#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+                
+                &#60;div class="nav-item" data-dropdown&#62;
+                    &#60;button class="nav-button"&#62;
+                        Online Exams
+                        &#60;i class="fas fa-chevron-down"&#62;&#60;/i&#62;
+                    &#60;/button&#62;
+                    &#60;div class="dropdown-menu"&#62;
+                        &#60;a href="https://www.udemy.com/course/cybersecurity-essentials-quiz-are-you-ready-to-defend/?couponCode=I_L_SB" class="dropdown-item"&#62;
+                            &#60;i class="fas fa-graduation-cap"&#62;&#60;/i&#62;
+                            Cybersecurity Essentials
+                        &#60;/a&#62;
+        
+                        &#60;a href="https://www.udemy.com/course/stay-hidden-anonymity-and-privacy-fundamentals-quiz/?referralCode=1C366AB2C30F2033D204" class="dropdown-item"&#62;
+                            &#60;i class="fas fa-graduation-cap"&#62;&#60;/i&#62;
+                            Stay Hidden
+                        &#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+                
+                &#60;a href="#" class="login-btn"&#62;
+                    &#60;i class="fas fa-sign-in-alt"&#62;&#60;/i&#62;
+                    Exam
+                &#60;/a&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/nav&#62;
+&#60;div class="banner"&#62;
+    🎓 Ethical Hacking Mentorship Program | Starts 1th March 2025 | Limited Seats!
+&#60;/div&#62;
+
+    &#60;div class="showcase-wrapper"&#62;
+        &#60;div class="showcase-container"&#62;
+            &#60;div class="content-left"&#62;
+                &#60;span class="job-ready-tag"&#62;🎓 Certified SecureByte CyberSecurity Intern (CSCI)&#60;/span&#62;
+                &#60;h1 class="main-title"&#62;SecureByte CyberSecurity Internship for Beginners&#60;/h1&#62;
+                &#60;p class="description"&#62;
+                    Welcome to the SecureByte CyberSecurity Internship for Beginners! The Certified SecureByte CyberSecurity Intern (CSCI) designation is a prestigious certification that recognizes individuals who successfully complete SecureByte's intensive 2-month cybersecurity internship program. This beginner-friendly program is designed to equip aspiring cybersecurity professionals with foundational knowledge and practical skills to kickstart their careers in the cybersecurity domain.
+                &#60;/p&#62;
+
+                &#60;div class="stats-container"&#62;
+                    &#60;div class="stat-card"&#62;
+                        &#60;div class="stat-number"&#62;&#9200; Program Duration&#60;/div&#62;
+                        &#60;div class="stat-label"&#62;Start: Jan 1, 2025&#60;br&#62;End: Feb 28, 2025&#60;/div&#62;
+                    &#60;/div&#62;
+                    &#60;div class="stat-card"&#62;
+                        &#60;div class="stat-number"&#62;👥 Limited Seats&#60;/div&#62;
+                        &#60;div class="stat-label"&#62;200 Seats Only&#60;br&#62;Industry Mentors&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;div class="countdown-section"&#62;
+                    &#60;h3 class="countdown-title"&#62;Program Starts In&#60;/h3&#62;
+                    &#60;div class="countdown-container"&#62;
+                        &#60;div class="countdown-item"&#62;
+                            &#60;div class="countdown-value" id="days"&#62;00&#60;/div&#62;
+                            &#60;div class="countdown-label"&#62;Days&#60;/div&#62;
+                        &#60;/div&#62;
+                        &#60;div class="countdown-item"&#62;
+                            &#60;div class="countdown-value" id="hours"&#62;00&#60;/div&#62;
+                            &#60;div class="countdown-label"&#62;Hours&#60;/div&#62;
+                        &#60;/div&#62;
+                        &#60;div class="countdown-item"&#62;
+                            &#60;div class="countdown-value" id="minutes"&#62;00&#60;/div&#62;
+                            &#60;div class="countdown-label"&#62;Minutes&#60;/div&#62;
+                        &#60;/div&#62;
+                        &#60;div class="countdown-item"&#62;
+                            &#60;div class="countdown-value" id="seconds"&#62;00&#60;/div&#62;
+                            &#60;div class="countdown-label"&#62;Seconds&#60;/div&#62;
+                        &#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;div class="buttons-container"&#62;
+                    &#60;a href="#" class="primary-btn"&#62;📅 Book Exam&#60;/a&#62;
+                    &#60;a href="assets/download_syllabus.pdf" class="secondary-btn"&#62;📚 Download Curriculum&#60;/a&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div class="content-right"&#62;
+            &#60;img src="assets/banner.jpg" alt="Course students" style="width: 100%; border-radius: 4px; margin-bottom: 1rem;"&#62;
+            &#60;h3&#62;Next Cohort Starts&#60;/h3&#62;
+            &#60;p class="price-tag"&#62;
+                &#60;span class="original-price"&#62;3,000 BDT&#60;/span&#62;
+                Free
+            &#60;/p&#62;
+            &#60;p&#62;&#10024; No cost For Tranning &#60;/p&#62;
+            &#60;a href="https://docs.google.com/forms/d/e/1FAIpQLSccLXv8rzsJqzsUBQwB0_Lpw_hei-hjZj9EgahfYl22jPULvw/viewform" class="enroll-btn"&#62;Register Now&#60;/a&#62;
+            &#60;p style="margin-top: 1rem; font-size: 0.9rem; color: #6b7280;"&#62;
+                Exam fee can be paid via custom payment link. Non-refundable and non-transferable.
+            &#60;/p&#62;
+        &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/div&#62;
+    &#60;!--
+    &#60;div class="main-content" id="ch"&#62;
+        &#60;h3&#62;Our learners work at top companies&#60;/h3&#62;
+    &#60;/div&#62;
+    &#60;div class="companies-section"&#62;
+        
+        &#60;div class="logo-scroll"&#62;
+            &#60;div class="logo-container"&#62;
+                &#60;img src="assets/wal.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/dullingo.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/air.jpg" alt="Company Logo"&#62;
+                &#60;img src="adobe-logo.png" alt="Company Logo"&#62;
+                &#60;img src="assets/m.jpg" alt="Company Logo"&#62;
+                &#60;img src="accenture-logo.png" alt="Company Logo"&#62;
+                &#60;img src="assets/google.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/meta.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/ex.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/len.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/ola-logo.jpg" alt="Company Logo"&#62;
+            &#60;/div&#62;
+            &#60;div class="logo-container"&#62;
+                &#60;img src="assets/wal.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/dullingo.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/air.jpg" alt="Company Logo"&#62;
+                &#60;img src="adobe-logo.png" alt="Company Logo"&#62;
+                &#60;img src="assets/m.jpg" alt="Company Logo"&#62;
+                &#60;img src="accenture-logo.png" alt="Company Logo"&#62;
+                &#60;img src="assets/google.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/meta.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/ex.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/len.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/ola-logo.jpg" alt="Company Logo"&#62;
+            &#60;/div&#62;
+            &#60;div class="logo-container"&#62;
+                &#60;img src="assets/wal.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/dullingo.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/air.jpg" alt="Company Logo"&#62;
+                &#60;img src="adobe-logo.png" alt="Company Logo"&#62;
+                &#60;img src="assets/m.jpg" alt="Company Logo"&#62;
+                &#60;img src="accenture-logo.png" alt="Company Logo"&#62;
+                &#60;img src="assets/google.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/meta.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/ex.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/len.jpg" alt="Company Logo"&#62;
+                &#60;img src="assets/ola-logo.jpg" alt="Company Logo"&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/div&#62;
+--&#62;
+        &#60;div class="cr3"&#62;
+            &#60;h1 class="title"&#62;Who Should Join SecureByte Cybersecurity Course?&#60;/h1&#62;
+            &#60;div class="carousel"&#62;
+                &#60;!-- Original cards --&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/fa.jpg" alt="Financial Analysts"&#62;
+                    &#60;h3&#62;Financial Analysts&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/prof.jpg" alt="Professionals"&#62;
+                    &#60;h3&#62;Professionals&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/s.jpg" alt="Students"&#62;
+                    &#60;h3&#62;Students&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/da.jpg" alt="Data Analysts"&#62;
+                    &#60;h3&#62;Data Analysts&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/it.jpg" alt="IT Specialists"&#62;
+                    &#60;h3&#62;IT Specialists&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;!-- Cloned cards for smooth infinite scroll --&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/fa.jpg" alt="Financial Analysts"&#62;
+                    &#60;h3&#62;Financial Analysts&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/prof.jpg" alt="Professionals"&#62;
+                    &#60;h3&#62;Professionals&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/s.jpg" alt="Students"&#62;
+                    &#60;h3&#62;Students&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/da.jpg" alt="Data Analysts"&#62;
+                    &#60;h3&#62;Data Analysts&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/it.jpg" alt="IT Specialists"&#62;
+                    &#60;h3&#62;IT Specialists&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/fa.jpg" alt="Financial Analysts"&#62;
+                    &#60;h3&#62;Financial Analysts&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/prof.jpg" alt="Professionals"&#62;
+                    &#60;h3&#62;Professionals&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/s.jpg" alt="Students"&#62;
+                    &#60;h3&#62;Students&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/da.jpg" alt="Data Analysts"&#62;
+                    &#60;h3&#62;Data Analysts&#60;/h3&#62;
+                &#60;/div&#62;
+                &#60;div class="card"&#62;
+                    &#60;img src="assets/it.jpg" alt="IT Specialists"&#62;
+                    &#60;h3&#62;IT Specialists&#60;/h3&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+   &#60;div class="main-content"&#62;
+        &#60;h1 class="title"&#62;SecureByte Cybersecurity Course Highlights&#60;/h1&#62;
+   &#60;/div&#62;
+    &#60;div class="main-content"&#62;
+        &#60;div class="nav-buttons"&#62;
+            &#60;br&#62;
+            &#60;button class="nav-button active" data-section="career"&#62;Who This Internship is For&#60;/button&#62;
+            &#60;button class="nav-button" data-section="geeks"&#62;Prerequisites&#60;/button&#62;
+            &#60;button class="nav-button" data-section="curriculum"&#62;Certification and Exam&#60;/button&#62;
+            &#60;button class="nav-button" data-section="cohort"&#62;Certification and Advanced Opportunities &#60;/button&#62;
+        &#60;/div&#62;
+
+        &#60;div class="content-section"&#62;
+            
+
+            &#60;div id="career" class="highlight-card active"&#62;
+                &#60;div class="card-content"&#62;
+                    &#60;div class="text-content"&#62;
+                        &#60;h2 class="card-title"&#62;Who This Internship is For&#60;/h2&#62;
+                        &#60;p class="card-description"&#62;If you're passionate about technology, love problem-solving, and are looking to take your first step into cybersecurity, this internship is made for you!&#60;/p&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Are curious about cybersecurity but have little to no prior experience. .&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Are considering a career in cybersecurity and want to understand the basics.&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Want to learn practical skills in ethical hacking, network security, and threat prevention.&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;SecureByte followers eager to gain in-depth knowledge directly from experts.&#60;/p&#62;
+                        &#60;/div&#62;
+                    &#60;/div&#62;
+                    &#60;img src="assets/1.jpg" alt="Career Launch" class="image"&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div id="geeks" class="highlight-card"&#62;
+                &#60;div class="card-content"&#62;
+                    &#60;div class="text-content"&#62;
+                        &#60;h2 class="card-title"&#62;Prerequisites&#60;/h2&#62;
+                        &#60;p class="card-description"&#62;No prior cybersecurity or programming knowledge is needed&#8212;this internship is designed for absolute beginners!
+                            To participate in this internship, you only need.&#60;/p&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;A Computer: Laptop or desktop that can run virtual machines and basic tools.&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Internet Access: A stable internet connection for online labs, sessions, and assignments&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Basic Computer Skills: Familiarity with general computer functions (no programming or technical skills are required).&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Commitment and Enthusiasm: A willingness to learn, complete assignments, and engage in discussions.&#60;/p&#62;
+                        &#60;/div&#62;
+                    &#60;/div&#62;
+                    &#60;img src="assets/3.jpg" alt="Guided Learning" class="image"&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div id="curriculum" class="highlight-card"&#62;
+                &#60;div class="card-content"&#62;
+                    &#60;div class="text-content"&#62;
+                        &#60;h2 class="card-title"&#62;Certified SecureByte Cyber Security Intern (CSCI)&#60;/h2&#62;
+                        &#60;p class="card-description"&#62;The Certified SecureByte Cyber Security Intern (CSCI) designation is a prestigious certification awarded to individuals who successfully passed exam after SecureByte's intensive 2 Months cybersecurity internship.&#60;/p&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Upon completing the internship, participants must pass a rigorous 1-hour open-book Multiple-Choice Question (MCQ) test, designed to comprehensively assess their theoretical understanding and practical proficiency, with a minimum score of 70% required for certification.&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Ambassador Program Membership: Exceptional interns will have the chance to join SecureByte's exclusive Ambassador Program, where they will represent SecureByte in the cybersecurity community, participate in specialized training, and benefit from unique learning experiences.&#60;/p&#62;
+                        &#60;/div&#62;
+                    &#60;/div&#62;
+                    &#60;img src="assets/CSCI.png" alt="Project Curriculum" class="image"&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div id="cohort" class="highlight-card"&#62;
+                &#60;div class="card-content"&#62;
+                    &#60;div class="text-content"&#62;
+                        &#60;h2 class="card-title"&#62;Career and Advanced Opportunities&#60;/h2&#62;
+                        &#60;p class="card-description"&#62;Leverage your certification for career opportunities across international cybersecurity firms.&#60;/p&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Professional Recognition: Establish credibility in the cybersecurity industry with the prestigious CSCI certification.&#60;/p&#62;
+                        &#60;/div&#62;
+                        &#60;div class="bullet-point"&#62;
+                            &#60;div class="bullet-icon"&#62;&#10003;&#60;/div&#62;
+                            &#60;p&#62;Advanced Training: Gain eligibility for SecureByte&#8217;s specialized programs in ethical hacking, digital forensics, and AI-powered security.
+                        &#60;/div&#62;
+                    &#60;/div&#62;
+                    &#60;img src="assets/4.jpg" alt="Cohort Learning" class="image"&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/div&#62;
+
+
+    &#60;div class="main-content"&#62;
+
+        &#60;div class="hr"&#62;
+            &#60;h1&#62;What We Offer in the SecureByte Cybersecurity Internship&#60;/h1&#62;
+            &#60;p&#62;Your Roadmap to Become a Certified Cybersecurity Interner&#60;/p&#62;
+            &#60;button class="apply-btn"&#62;
+            &#60;a href="https://docs.google.com/forms/d/e/1FAIpQLSccLXv8rzsJqzsUBQwB0_Lpw_hei-hjZj9EgahfYl22jPULvw/viewform" class="apply-btn-link"&#62;Apply Now&#60;/a&#62;&#60;/button&#62;
+        &#60;/div&#62;
+
+        &#60;div class="steps-container"&#62;
+            &#60;div class="step"&#62;
+                &#60;div class="step-icon"&#62;💡&#60;/div&#62;
+                &#60;div class="step-content"&#62;
+                    &#60;div class="step-title"&#62;Foundational Knowledge 📚&#60;/div&#62;
+                    &#60;div class="step-description"&#62;We start from scratch, teaching you the essential principles of cybersecurity, network security basics, and operating system fundamentals.&#60;/div&#62;
+                    &#60;div class="tags"&#62;
+                        &#60;span class="tag"&#62;Live Classes&#60;/span&#62;
+                        &#60;span class="tag"&#62;Self-Paced&#60;/span&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div class="step"&#62;
+                &#60;div class="step-icon"&#62;🛠️&#60;/div&#62;
+                &#60;div class="step-content"&#62;
+                    &#60;div class="step-title"&#62;Hands-On Labs and Practical Exercises &#60;/div&#62;
+                    &#60;div class="step-description"&#62;
+                    &#60;ul style="padding: 15px;"&#62;
+                        &#60;li&#62;Guided Virtual Labs: Practice with ethical hacking and security tools such as Kali Linux, Nmap, Metasploit, Wireshark, and more in a safe, virtual environment.&#60;/li&#62;
+                        &#60;li&#62;Real-World Scenarios: Dive into incident response simulations, network scans, and hands-on vulnerability analysis exercises.&#60;/li&#62;
+                        &#60;li&#62;Tool Demonstrations: Learn the essentials of key cybersecurity tools, including Nmap for network scanning, Wireshark for traffic analysis, Metasploit for testing vulnerabilities, and more.&#60;/li&#62;
+                        &#60;li&#62;Step-by-Step Practice: Get guidance on installing, navigating, and using these tools to understand their purpose in cybersecurity.&#60;/li&#62;
+                    &#60;/ul&#62;
+                &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div class="step"&#62;
+                &#60;div class="step-icon"&#62;💼&#60;/div&#62;
+                &#60;div class="step-content"&#62;
+                    &#60;div class="step-title"&#62;Personalized Career Guidance &#60;/div&#62;
+                    &#60;div class="step-description"&#62;Live Classes Led by Naem Azam Chowdhury. Gain insights into entry-level cybersecurity roles, industry-recognized certifications, and strategic guidance on advancing your cybersecurity career beyond the internship.&#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div class="step"&#62;
+                &#60;div class="step-icon"&#62;🎓&#60;/div&#62;
+                &#60;div class="step-content"&#62;
+                    &#60;div class="step-title"&#62;Certification and Advanced Opportunities for Successful Interns &#60;/div&#62;
+                    &#60;div class="step-description"&#62;Successful interns who pass the final assessment will earn a SecureByte certification. Certified interns gain exclusive access to mentorship from SecureByte experts, entry into the Ambassador Program, and advanced training opportunities. Outstanding participants may also qualify to guide future intern cohorts as mentors. This support network provides ongoing learning, professional development, and new opportunities within SecureByte&#8217;s cybersecurity community.&#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/div&#62;
+    &#60;/div&#62;
+
+
+&#60;div class="main-content"&#62;
+    &#60;!-- Course Overview Section --&#62;
+    &#60;section class="course-overview"&#62;
+        &#60;div class="header"&#62;
+            &#60;div class="header-content"&#62;
+                &#60;h1&#62;SecureByte Cybersecurity Internship for Beginners&#60;/h1&#62;
+                &#60;h4&#62;Master the art of Cybersecurity with hands-on practice and expert guidance&#60;/h4&#62;
+            &#60;/div&#62;
+            &#60;a href="assets/download_syllabus.pdf" class="download-btn" aria-label="Download Course Curriculum"&#62;
+                &#60;i class="icon-download"&#62;&#60;/i&#62;
+                Download Curriculum
+            &#60;/a&#62;
+        &#60;/div&#62;
+
+        &#60;!-- Course Statistics --&#62;
+        &#60;div class="course-info"&#62;
+            &#60;div class="info-item"&#62;
+                &#60;span class="info-label"&#62;
+                    &#60;i class="icon-duration"&#62;&#60;/i&#62;
+                    Duration
+                &#60;/span&#62;
+                &#60;strong&#62;2 Months&#60;/strong&#62;
+            &#60;/div&#62;
+            &#60;div class="info-item"&#62;
+                &#60;span class="info-label"&#62;
+                    &#60;i class="icon-mode"&#62;&#60;/i&#62;
+                    Mode
+                &#60;/span&#62;
+                &#60;strong&#62;Online&#60;/strong&#62;
+            &#60;/div&#62;
+            &#60;div class="info-item"&#62;
+                &#60;span class="info-label"&#62;
+                    &#60;i class="icon-sessions"&#62;&#60;/i&#62;
+                    Live Sessions
+                &#60;/span&#62;
+                &#60;strong&#62;16+ hrs&#60;/strong&#62;
+            &#60;/div&#62;
+            &#60;div class="info-item"&#62;
+                &#60;span class="info-label"&#62;
+                    &#60;i class="icon-projects"&#62;&#60;/i&#62;
+                    Exam
+                &#60;/span&#62;
+                &#60;strong&#62;Yes&#60;/strong&#62;
+            &#60;/div&#62;
+            &#60;div class="placement-support"&#62;
+                &#60;i class="icon-star"&#62;&#60;/i&#62;
+                &#60;span&#62;Placement Support&#60;/span&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/section&#62;
+
+    &#60;!-- Course Modules Section --&#62;
+    &#60;section class="course-modules" id="modules-container"&#62;
+        &#60;h2 class="section-title"&#62;Course Curriculum&#60;/h2&#62;
+        
+        &#60;!-- Module 1: Networking --&#62;
+        &#60;article class="module" data-module="1"&#62;
+            &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module1-content"&#62;
+                &#60;div class="module-title"&#62;
+                    &#60;span class="module-number"&#62;Module 1&#60;/span&#62;
+                    &#60;strong&#62; Cyber Foundations &#60;/strong&#62;
+                &#60;/div&#62;
+                &#60;div class="module-badges"&#62;
+                    &#60;span class="badge" title="Number of live classes"&#62;
+                        &#60;i class="icon-class"&#62;&#60;/i&#62;
+                        7 Live Classes
+                    &#60;/span&#62;
+                    &#60;span class="badge" title="Includes assignment"&#62;
+                        &#60;i class="icon-assignment"&#62;&#60;/i&#62;
+                        Assignment
+                    &#60;/span&#62;
+                    &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;div class="module-content" id="module1-content" hidden&#62;
+                &#60;ul class="topic-list" role="list"&#62;
+                    &#60;li class="topic-item"&#62;Introduction to cybersecurity principles, terminologies, and core concepts.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Understanding threats, vulnerabilities, and defense mechanisms.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Basics of cybersecurity ethics and responsible practices.&#60;/li&#62;
+                &#60;/ul&#62;
+            &#60;/div&#62;
+        &#60;/article&#62;
+
+        &#60;!-- Module 2: network --&#62;
+        &#60;article class="module" data-module="2"&#62;
+            &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62;
+                &#60;div class="module-title"&#62;
+                    &#60;span class="module-number"&#62;Module 2&#60;/span&#62;
+                    &#60;strong&#62;Network Basics&#60;/strong&#62;
+                &#60;/div&#62;
+                &#60;div class="module-badges"&#62;
+                    &#60;span class="badge" title="Number of live classes"&#62;
+                        &#60;i class="icon-class"&#62;&#60;/i&#62;
+                        4 Live Classes
+                    &#60;/span&#62;
+                    &#60;span class="badge" title="Includes assignment"&#62;
+                        &#60;i class="icon-assignment"&#62;&#60;/i&#62;
+                        Assignment
+                    &#60;/span&#62;
+                    &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;div class="module-content" id="module2-content" hidden&#62;
+                &#60;ul class="topic-list" role="list"&#62;
+                    &#60;li class="topic-item"&#62;Fundamentals of networking: protocols, devices, and architecture.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Securing networks and identifying potential vulnerabilities.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Introduction to network mapping and traffic analysis.&#60;/li&#62;
+                &#60;/ul&#62;
+            &#60;/div&#62;
+        &#60;/article&#62;
+        &#60;!-- Module 3: Linux --&#62;
+        &#60;article class="module" data-module="3"&#62;
+            &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62;
+                &#60;div class="module-title"&#62;
+                    &#60;span class="module-number"&#62;Module 3&#60;/span&#62;
+                    &#60;strong&#62;OS Essentials&#60;/strong&#62;
+                &#60;/div&#62;
+                &#60;div class="module-badges"&#62;
+                    &#60;span class="badge" title="Number of live classes"&#62;
+                        &#60;i class="icon-class"&#62;&#60;/i&#62;
+                        4 Live Classes
+                    &#60;/span&#62;
+                    &#60;span class="badge" title="Includes assignment"&#62;
+                        &#60;i class="icon-assignment"&#62;&#60;/i&#62;
+                        Assignment
+                    &#60;/span&#62;
+                    &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;div class="module-content" id="module2-content" hidden&#62;
+                &#60;ul class="topic-list" role="list"&#62;
+                    &#60;li class="topic-item"&#62;Setting up virtual environment&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Core operating system concepts in cybersecurity contexts.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Basics of securing and managing OS vulnerabilities.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Basic Linux commands (Practical)&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Advanced Linux commands (Practical)&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Getting Familiar with Linux OS&#60;/li&#62;
+                &#60;/ul&#62;
+            &#60;/div&#62;
+        &#60;/article&#62;
+        &#60;!-- Module 3: Offensive Techniques --&#62;
+        &#60;article class="module" data-module="3"&#62;
+            &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62;
+                &#60;div class="module-title"&#62;
+                    &#60;span class="module-number"&#62;Module 4&#60;/span&#62;
+                    &#60;strong&#62;Offensive Techniques&#60;/strong&#62;
+                &#60;/div&#62;
+                &#60;div class="module-badges"&#62;
+                    &#60;span class="badge" title="Number of live classes"&#62;
+                        &#60;i class="icon-class"&#62;&#60;/i&#62;
+                        4 Live Classes
+                    &#60;/span&#62;
+                    &#60;span class="badge" title="Includes assignment"&#62;
+                        &#60;i class="icon-assignment"&#62;&#60;/i&#62;
+                        Assignment
+                    &#60;/span&#62;
+                    &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;div class="module-content" id="module2-content" hidden&#62;
+                &#60;ul class="topic-list" role="list"&#62;
+                    &#60;li class="topic-item"&#62;Kali Linux Mastery: Configure hacking labs and perform reconnaissance.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Scanning &#38; Reconnaissance: Identify vulnerabilities like a cyber detective.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;System Hacking: Understand exploitation techniques and vulnerabilities.&#60;/li&#62;
+                &#60;/ul&#62;
+            &#60;/div&#62;
+        &#60;/article&#62;
+        &#60;!-- Module 3: Linux --&#62;
+        &#60;article class="module" data-module="3"&#62;
+            &#60;div class="module-header" role="button" tabindex="0" aria-expanded="false" aria-controls="module2-content"&#62;
+                &#60;div class="module-title"&#62;
+                    &#60;span class="module-number"&#62;Module 5&#60;/span&#62;
+                    &#60;strong&#62;Specialized Skills&#60;/strong&#62;
+                &#60;/div&#62;
+                &#60;div class="module-badges"&#62;
+                    &#60;span class="badge" title="Number of live classes"&#62;
+                        &#60;i class="icon-class"&#62;&#60;/i&#62;
+                        4 Live Classes
+                    &#60;/span&#62;
+                    &#60;span class="badge" title="Includes assignment"&#62;
+                        &#60;i class="icon-assignment"&#62;&#60;/i&#62;
+                        Assignment
+                    &#60;/span&#62;
+                    &#60;button class="toggle-icon" aria-label="Toggle module content"&#62;&#60;/button&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;div class="module-content" id="module2-content" hidden&#62;
+                &#60;ul class="topic-list" role="list"&#62;
+                    &#60;li class="topic-item"&#62;Wireless Hacking: Testing Wi-Fi security and vulnerabilities.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;OSINT: Gathering public information for investigative purposes.&#60;/li&#62;
+                    &#60;li class="topic-item"&#62;Social Engineering: Ethical manipulation to test human weaknesses.&#60;/li&#62;
+                &#60;/ul&#62;
+            &#60;/div&#62;
+        &#60;/article&#62;
+
+        &#60;!-- Additional modules follow the same pattern --&#62;
+        &#60;!-- For brevity, showing two modules as example --&#62;
+    &#60;/section&#62;
+&#60;/div&#62;
+
+&#60;div class="cr7"&#62;
+        &#60;header&#62;
+            &#60;h1&#62;Career Growth Hub&#60;/h1&#62;
+            &#60;p class="subtitle"&#62;Empowering Your Professional Journey with Comprehensive Career Development Solutions&#60;/p&#62;
+        &#60;/header&#62;
+
+        &#60;div class="services-grid"&#62;
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="./assets/cv.png" alt="Resume icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;Resume Mastery&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Transform your resume into a powerful career tool with expert guidance and ATS-optimized templates that highlight your unique value proposition.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="./assets/linkedin.png" alt="LinkedIn icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;LinkedIn Excellence&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Optimize your LinkedIn presence with a strategic profile that attracts recruiters and builds meaningful professional connections.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="./assets/github.png" alt="GitHub icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;GitHub Portfolio&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Showcase your technical expertise with a curated GitHub profile that demonstrates your coding abilities and project management skills.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="/api/placeholder/80/80" alt="Portfolio icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;Digital Portfolio&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Create a stunning online portfolio that showcases your work, achievements, and professional journey in an engaging and interactive format.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="/api/placeholder/80/80" alt="Communication icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;Communication Pro&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Master the art of professional communication with personalized coaching on presentation skills, public speaking, and networking.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="/api/placeholder/80/80" alt="Interview icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;Interview Success&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Ace your interviews with comprehensive preparation, real-time feedback, and industry-specific mock interview sessions.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="/api/placeholder/80/80" alt="Career icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;Career Launch&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Get personalized guidance to navigate your career path, identify opportunities, and achieve your professional goals.&#60;/p&#62;
+            &#60;/div&#62;
+
+            &#60;div class="service-card"&#62;
+                &#60;div class="service-icon"&#62;
+                    &#60;img src="/api/placeholder/80/80" alt="Career icon"&#62;
+                &#60;/div&#62;
+                &#60;h3 class="service-title"&#62;Career Launch&#60;/h3&#62;
+                &#60;p class="service-description"&#62;Get personalized guidance to navigate your career path, identify opportunities, and achieve your professional goals.&#60;/p&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+
+        &#60;div class="cta-section"&#62;
+            &#60;button class="cta-button" onclick="showSuccessMessage()"&#62;Schedule Career Consultation&#60;/button&#62;
+        &#60;/div&#62;
+    &#60;/div&#62;
+
+    &#60;div id="successMessage" class="success-message"&#62;
+        Thanks! Our career advisor will contact you soon.
+    &#60;/div&#62;
+
+
+&#60;div class="mentors-section"&#62;
+    &#60;div class="mentors-header"&#62;
+        &#60;h1&#62;Expert Mentorship Team&#60;/h1&#62;
+        &#60;p&#62;Learn from industry-leading professionals who are passionate about shaping the future of cybersecurity&#60;/p&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="mentors-grid"&#62;
+        &#60;div class="main-mentor"&#62;
+            &#60;div class="mentor-card"&#62;
+                &#60;div class="mentor-image"&#62;
+                    &#60;img src="assets/mentor.jpg" alt="Naem Azam Chowdhury"&#62;
+                &#60;/div&#62;
+                &#60;div class="mentor-info"&#62;
+                    &#60;h3&#62;Naem Azam Chowdhury&#60;/h3&#62;
+                    &#60;h4&#62;Lead Security Researcher &#38;amp; Program Director&#60;/h4&#62;
+                    &#60;p&#62;&#60;strong&#62;Core Focus:&#60;/strong&#62; Advanced Cybersecurity, AI Integration, Secure Development&#60;/p&#62;
+                    &#60;p&#62;A distinguished cybersecurity expert with over a decade of experience in cutting-edge research and development. Naem combines his expertise in AI and cybersecurity to pioneer innovative security solutions and educational methodologies.&#60;/p&#62;
+                    &#60;p&#62;&#60;strong&#62;Key Achievements:&#60;/strong&#62;&#60;/p&#62;
+                    &#60;ul class="achievements-list"&#62;
+                        &#60;li&#62;Gold Medal recipient in Computer Science (University of Science and Technology)&#60;/li&#62;
+                        &#60;li&#62;Champion, Global AI Security Innovation Competition 2023, China&#60;/li&#62;
+                        &#60;li&#62;Founder, CyberSafe Initiative - Empowering 10,000+ students globally&#60;/li&#62;
+                        &#60;li&#62;Published researcher with contributions to major security conferences&#60;/li&#62;
+                    &#60;/ul&#62;
+                    &#60;p&#62;&#60;strong&#62;Educational Philosophy:&#60;/strong&#62; "Security excellence through practical experience and collaborative innovation. Every challenge is an opportunity to learn and grow."&#60;/p&#62;
+                    &#60;div class="social-links"&#62;
+                        &#60;a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"&#62;YouTube Channel&#60;/a&#62;
+                        &#60;a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"&#62;Connect on Twitter&#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+        
+        &#60;!--
+        &#60;div class="assistant-mentors"&#62;
+            &#60;div class="mentor-card"&#62;
+                &#60;div class="mentor-image"&#62;
+                    &#60;img src="assets/mentor.jpg" alt="Sarah Chen"&#62;
+                &#60;/div&#62;
+                &#60;div class="mentor-info"&#62;
+                    &#60;h3&#62;Sarah Chen&#60;/h3&#62;
+                    &#60;h4&#62;Network Security Specialist&#60;/h4&#62;
+                    &#60;p&#62;Specializing in advanced network security and threat detection, Sarah brings extensive experience in implementing robust security architectures for enterprise systems.&#60;/p&#62;
+                    &#60;div class="social-links"&#62;
+                        &#60;a href="#" target="_blank" rel="noopener noreferrer"&#62;Profile&#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+            &#60;br&#62;&#60;br&#62;
+            &#60;div class="mentor-card"&#62;
+                &#60;div class="mentor-image"&#62;
+                    &#60;img src="assets/mentor.jpg" alt="Marcus Rodriguez"&#62;
+                &#60;/div&#62;
+                &#60;div class="mentor-info"&#62;
+                    &#60;h3&#62;Marcus Rodriguez&#60;/h3&#62;
+                    &#60;h4&#62;Penetration Testing Expert&#60;/h4&#62;
+                    &#60;p&#62;OSCP certified penetration tester with expertise in red team operations and vulnerability assessment. Leading hands-on training in ethical hacking methodologies.&#60;/p&#62;
+                    &#60;div class="social-links"&#62;
+                        &#60;a href="#" target="_blank" rel="noopener noreferrer"&#62;Profile&#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+
+    --&#62;
+    &#60;/div&#62;
+&#60;/div&#62;
+
+
+&#60;section class="cta-section"&#62;
+    &#60;div class="crc"&#62;
+        &#60;div class="cta-content"&#62;
+                &#60;h2&#62;Still Confused? Want to know more?&#60;/h2&#62;
+                &#60;div class="cta-form"&#62;
+                    &#60;input type="tel" class="phone-input" placeholder="Enter your phone number" id="phone"&#62;
+                    &#60;button class="demo-button"&#62;Book Demo Now&#60;/button&#62;
+                &#60;/div&#62;
+
+                
+        &#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;
+
+&#60;div class="cr9"&#62;
+        &#60;!-- Reviews Section --&#62;
+        &#60;div class="reviews-section"&#62;
+            &#60;div class="reviews-header"&#62;
+                &#60;div class="stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
+                &#60;div class="rating"&#62;4.9 (32 Reviews)&#60;/div&#62;
+                &#60;h2&#62;Hear From Our Alumni&#60;/h2&#62;
+            &#60;/div&#62;
+            
+            &#60;div class="reviews-grid"&#62;
+                &#60;!-- Review Card 1 --&#62;
+                &#60;div class="review-card"&#62;
+                    &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
+                    &#60;p class="review-text"&#62;The SecureByte internship was a game-changer for me! The hands-on approach and real-world challenges prepared me for my current role as a cybersecurity analyst.&#60;/p&#62;
+                    &#60;div class="reviewer"&#62;
+                        &#60;div class="reviewer-avatar"&#62;RH&#60;/div&#62;
+                        &#60;div class="reviewer-name"&#62;Rafsan Haque (Bangladesh)&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;!-- Review Card 2 --&#62;
+                &#60;div class="review-card"&#62;
+                    &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
+                    &#60;p class="review-text"&#62;This program gave me the confidence and skills to start my cybersecurity journey. The mentorship and resources are unmatched!&#60;/p&#62;
+                    &#60;div class="reviewer"&#62;
+                        &#60;div class="reviewer-avatar"&#62;PS&#60;/div&#62;
+                        &#60;div class="reviewer-name"&#62;Priya Sharma (India)&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;!-- Review Card 3 --&#62;
+                &#60;div class="review-card"&#62;
+                    &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
+                    &#60;p class="review-text"&#62;I loved how practical the sessions were. Learning tools like Kali Linux and Nmap made me industry-ready.&#60;/p&#62;
+                    &#60;div class="reviewer"&#62;
+                        &#60;div class="reviewer-avatar"&#62;TR&#60;/div&#62;
+                        &#60;div class="reviewer-name"&#62;Tanjim Rahman (Bangladesh)&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;!-- Review Card 4 --&#62;
+                &#60;div class="review-card"&#62;
+                    &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#60;/div&#62;
+                    &#60;p class="review-text"&#62;SecureByte's internship opened doors I never thought possible. The certification boosted my resume and landed me a great job in cybersecurity.&#60;/p&#62;
+                    &#60;div class="reviewer"&#62;
+                        &#60;div class="reviewer-avatar"&#62;AD&#60;/div&#62;
+                        &#60;div class="reviewer-name"&#62;Arjun Desai&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                &#60;!-- Review Card 5 --&#62;
+                &#60;div class="review-card"&#62;
+                    &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#60;/div&#62;
+                    &#60;p class="review-text"&#62;The interactive challenges and career guidance made this internship invaluable. Highly recommended for beginners!&#60;/p&#62;
+                    &#60;div class="reviewer"&#62;
+                        &#60;div class="reviewer-avatar"&#62;MC&#60;/div&#62;
+                        &#60;div class="reviewer-name"&#62;Mahira Chowdhury (Bangladesh)&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+                &#60;!-- Review Card 6 --&#62;
+                &#60;div class="review-card"&#62;
+                    &#60;div class="review-stars"&#62;&#9733;&#9733;&#9733;&#9733;&#9733;&#60;/div&#62;
+                    &#60;p class="review-text"&#62;This is a wonderful course. Highly appreciated and recommended to everyone who wants to make a career in cybersecurity or ethical hacking.&#60;/p&#62;
+                    &#60;div class="reviewer"&#62;
+                        &#60;div class="reviewer-avatar"&#62;YY&#60;/div&#62;
+                        &#60;div class="reviewer-name"&#62;Yamin&#60;/div&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+&#60;/div&#62;
+&#60;div class="cr9"&#62;
+        &#60;!-- FAQ Section --&#62;
+    &#60;div class="faq-container"&#62;
+  &#60;div class="faq-header"&#62;
+    &#60;h2&#62;Who is eligible for the program?&#60;/h2&#62;
+    &#60;p&#62;This program is designed for beginners, and no prior cybersecurity knowledge is required. Anyone with a keen interest in cybersecurity can apply.&#60;/p&#62;
+  &#60;/div&#62;
+  
+  &#60;div class="faq-list"&#62;
+    &#60;div class="faq-item"&#62;
+      &#60;div class="faq-question"&#62;
+        &#60;span&#62;What will I learn during the internship?&#60;/span&#62;
+        &#60;div class="faq-icon"&#62;&#60;/div&#62;
+      &#60;/div&#62;
+      &#60;div class="faq-answer"&#62;
+        You will gain foundational knowledge in cybersecurity, network security, operating systems, ethical hacking tools, and advanced techniques like OSINT, wireless hacking, and social engineering.
+      &#60;/div&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="faq-item"&#62;
+      &#60;div class="faq-question"&#62;
+        &#60;span&#62;What is the format of the certification exam?&#60;/span&#62;
+        &#60;div class="faq-icon"&#62;&#60;/div&#62;
+      &#60;/div&#62;
+      &#60;div class="faq-answer"&#62;
+        The final certification exam is a 1-hour open-book Multiple-Choice Question (MCQ) test. Participants must score at least 70% to earn the Certified SecureByte Cyber Security Intern (CSCI) designation.
+      &#60;/div&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="faq-item"&#62;
+      &#60;div class="faq-question"&#62;
+        &#60;span&#62;What career opportunities can I expect after completing this program?&#60;/span&#62;
+        &#60;div class="faq-icon"&#62;&#60;/div&#62;
+      &#60;/div&#62;
+      &#60;div class="faq-answer"&#62;
+        Upon certification, you&#8217;ll be prepared for roles like Cybersecurity Analyst, SOC Analyst, or Penetration Tester. You'll also gain eligibility for advanced SecureByte training programs and career guidance.
+      &#60;/div&#62;
+    &#60;/div&#62;
+    
+    &#60;div class="faq-item"&#62;
+      &#60;div class="faq-question"&#62;
+        &#60;span&#62;What career opportunities can I expect after completing this program?&#60;/span&#62;
+        &#60;div class="faq-icon"&#62;&#60;/div&#62;
+      &#60;/div&#62;
+      &#60;div class="faq-answer"&#62;
+        Upon certification, you&#8217;ll be prepared for roles like Cybersecurity Analyst, SOC Analyst, or Penetration Tester. You'll also gain eligibility for advanced SecureByte training programs and career guidance.
+      &#60;/div&#62;
+    &#60;/div&#62;
+  &#60;/div&#62;
+&#60;/div&#62;
+&#60;/div&#62;
+
+
+&#60;footer class="footer"&#62;
+        &#60;div class="footer-container"&#62;
+            &#60;div class="footer-top"&#62;
+                &#60;div class="footer-logo"&#62;
+                    &#60;img src="assets/favicon.ico" alt="Securebyte Ethical Hacking Course"&#62;
+                    &#60;p class="footer-tagline"&#62;Elevate Your Learning Journey with Cutting-Edge Education Technology.&#60;/p&#62;
+                    &#60;div class="social-icons"&#62;
+                    &#60;a href="https://x.com/SecureByteORG" aria-label="Twitter"&#62;&#60;i class="fab fa-twitter"&#62;&#60;/i&#62;&#60;/a&#62;
+                    &#60;a href="#" aria-label="Instagram"&#62;&#60;i class="fab fa-instagram"&#62;&#60;/i&#62;&#60;/a&#62;
+                    &#60;a href="#" aria-label="LinkedIn"&#62;&#60;i class="fab fa-linkedin-in"&#62;&#60;/i&#62;&#60;/a&#62;
+                    &#60;a href="https://www.youtube.com/@securebyteofficial" aria-label="YouTube"&#62;&#60;i class="fab fa-youtube"&#62;&#60;/i&#62;&#60;/a&#62;
+                    &#60;a href="https://www.facebook.com/groups/securebytecommunity" aria-label="Facebook"&#62;&#60;i class="fab fa-facebook-f"&#62;&#60;/i&#62;&#60;/a&#62;
+                &#60;/div&#62;
+                &#60;/div&#62;
+                &#60;div class="footer-nav"&#62;
+                    &#60;div class="nav-section"&#62;
+                        &#60;h3&#62;Company&#60;/h3&#62;
+                        &#60;a href="#"&#62;Contact&#60;/a&#62;
+                        &#60;a href="#"&#62;About&#60;/a&#62;
+                        &#60;a href="#"&#62;WsCube Tech Blog&#60;/a&#62;
+                        &#60;a href="#"&#62;Self-Paced Courses&#60;/a&#62;
+                        &#60;a href="#"&#62;Events&#60;/a&#62;
+                    &#60;/div&#62;
+                    &#60;div class="nav-section"&#62;
+                        &#60;h3&#62;Our Programs&#60;/h3&#62;
+                        &#60;a href="#"&#62;Data Analytics&#60;/a&#62;
+                        &#60;a href="#"&#62;Digital Marketing&#60;/a&#62;
+                        &#60;a href="#"&#62;Web Development&#60;/a&#62;
+                        &#60;a href="#"&#62;Cyber Security&#60;/a&#62;
+                        &#60;a href="#"&#62;App Development&#60;/a&#62;
+                        &#60;a href="#"&#62;Design&#60;/a&#62;
+                    &#60;/div&#62;
+                    &#60;div class="nav-section"&#62;
+                        &#60;h3&#62;Support&#60;/h3&#62;
+                        &#60;a href="#"&#62;Privacy Policy&#60;/a&#62;
+                        &#60;a href="#"&#62;Terms &#38; Conditions&#60;/a&#62;
+                        &#60;a href="#"&#62;Refund Policy&#60;/a&#62;
+                        &#60;a href="#"&#62;FAQ's&#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+            &#60;/div&#62;
+
+            &#60;div class="footer-courses"&#62;
+                &#60;div class="course-category"&#62;
+                    &#60;h3&#62;Interview Questions&#60;/h3&#62;
+                    &#60;div class="course-links"&#62;
+                        &#60;a href="#"&#62;HTML Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;CSS Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;PHP Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;JavaScript Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;Flutter Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;Data Structure Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;Java Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;MySQL Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;Python Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;DBMS Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;Power BI Interview Questions&#60;/a&#62;
+                        &#60;a href="#"&#62;Angular Interview Questions&#60;/a&#62;
+                    &#60;/div&#62;
+                &#60;/div&#62;
+
+                
+            &#60;/div&#62;
+
+            &#60;div class="footer-bottom"&#62;
+                &#60;p&#62;&#169; Copyright 2024, All Rights Reserved By @SecureByte&#60;/p&#62;
+            &#60;/div&#62;
+        &#60;/div&#62;
+    &#60;/footer&#62;
+&#60;/body&#62;
+&#60;/html&#62;
